@@ -12,14 +12,14 @@
  */
 envid_t env_id_mat[NDIMENSION][NDIMENSION];
 int A[NORDER][NORDER] = {
-    {1, 2, 3},
-    {4, 5, 6},
-    {7, 8, 9}
+    {1, 5, 6},
+    {2, 5, 7},
+    {2, 1, 4}
 };
 int B[NORDER][NORDER] = {
-    {10, 20, 30},
-    {40, 50, 60},
-    {70, 80, 90}
+    {1, 2, 7},
+    {4, 5, 1},
+    {3, 8, 9}
 };
 int C[NORDER][NORDER];
 
@@ -502,7 +502,7 @@ master(void) {
                 break;
         if (i == NORDER + 1)
             panic("master: unexpected recv: %08x got %x from %08x\n", sys_getenvid(), value, who);
-        C[i - 1][index[i-1]++] = value;
+        C[index[i-1]++][i-1] = value;
         count++;
     }
 
