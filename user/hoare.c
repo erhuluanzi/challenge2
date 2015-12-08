@@ -1,6 +1,6 @@
 #include <inc/lib.h>
 
-#define NORDER 3
+#define NORDER 5
 #define NDIMENSION (NORDER + 2)
 #define MAXLENQUEUE (NORDER)
 
@@ -11,15 +11,29 @@
  * envid, A矩阵，定义见Hoare论文
  */
 envid_t env_id_mat[NDIMENSION][NDIMENSION];
+// int A[NORDER][NORDER] = {
+//     {1, 5, 6},
+//     {2, 5, 7},
+//     {2, 1, 4}
+// };
+// int B[NORDER][NORDER] = {
+//     {1, 2, 7},
+//     {4, 5, 1},
+//     {3, 8, 9}
+// };
 int A[NORDER][NORDER] = {
-    {1, 5, 6},
-    {2, 5, 7},
-    {2, 1, 4}
+    {1, 5, 6, 1, 1},
+    {2, 5, 7, 1, 1},
+    {2, 1, 4, 1, 1},
+    {1, 1, 1, 1, 1},
+    {1, 1, 1, 1, 1}
 };
 int B[NORDER][NORDER] = {
-    {1, 2, 7},
-    {4, 5, 1},
-    {3, 8, 9}
+    {1, 2, 7, 1, 1},
+    {4, 5, 1, 1, 1},
+    {3, 8, 9, 1, 1},
+    {1, 1, 1, 1, 1},
+    {1, 1, 1, 1, 1}
 };
 int C[NORDER][NORDER];
 
@@ -54,6 +68,7 @@ wait_for_data (int rdc, struct RequiredData* rdv) {
     return 0;
 }
 
+/*
 int
 example(void) {
     cprintf("i am master environment %08x\n", thisenv->env_id);
@@ -73,6 +88,7 @@ example(void) {
     ipc_send(id, 2, 0, 0);
     return 0;
 }
+*/
 
 /*
  * 队列数据结构
@@ -502,7 +518,7 @@ master(void) {
                 break;
         if (i == NORDER + 1)
             panic("master: unexpected recv: %08x got %x from %08x\n", sys_getenvid(), value, who);
-        C[index[i-1]++][i-1] = value;
+        C[index[i-1]++][i-1] = value; // receive from different stage stream!!区分不同阶段计算出来的值
         count++;
     }
 
