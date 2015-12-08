@@ -58,6 +58,151 @@ CENTER: 节点M(i, j)接受西边(M(i, j-1))传来的值x，直接传x给东边(
 * JOS的IPC机制是在两个进程之间的，和所在CPU没有关系。所以既可以在单处理器的机器上跑，也可以在多处理器的机器上跑。然而JOS并不能支持集群的情况，因为IPC的共享物理页面机制建立在所有处理器共享内存的基础之上。 
 
 #### Part 2: 代码实现
+前提：C＝B＊A
+
+#####框架设计
+考虑论文中的算法，我将整个程序分成master、center_proc、north_proc、west_proc、south_proc、east_proc等6种进程，其中master用于协调算法的开始与结束、负责输入与输出，其余5种进程定义同Hoare论文提到的。
+
+最初我没有考虑让整个算法连续运行，设计的算法是master每次发送一个B的行向量给west_proc，等这个流被处理完，从south_proc接收得到的行向量，然后发送下一个流。于是设计了一个wait_for_data函数，用法如下：
+
+	/*
+	 * 等待所需要的全部数据
+	 * 只能实现单个流的乘法，已废弃
+	 */
+	struct RequiredData {
+	    envid_t from;
+	    int value;
+	    int is_set;
+	};
+	
+	int
+	wait_for_data (int rdc, struct RequiredData* rdv) {
+	    int i, value;
+	    int count = 0;
+	    envid_t who;
+	    while (count != rdc) {
+	        value = ipc_recv(&who, 0, 0);
+	        for (i = 0; i < rdc; i ++)
+	            if (rdv[i].from == who && !rdv[i].is_set)
+	                break;
+	        if (i == rdc) {
+	            panic("wait_for_data: unexpected recv: %x got %x from %x\n", sys_getenvid(), value, who);
+	            continue;
+	        }
+	        rdv[i].value = value;
+	        rdv[i].is_set = 1;
+	        count++;
+	    }
+	    return 0;
+	}
+	
+	int
+	example(void) {
+	    cprintf("i am master environment %08x\n", thisenv->env_id);
+	    envid_t id = fork();
+	    if (id == 0) {
+	        cprintf("i am child  environment %08x\n", thisenv->env_id);
+	        struct RequiredData rd[2] = {
+	            {0x00001001, 0, 0},
+	            {0x00001001, 0, 0}
+	        };
+	        wait_for_data(2, rd);
+	        cprintf("rd[0] = %d\n", rd[0].value);
+	        cprintf("rd[1] = %d\n", rd[1].value);
+	        return 0;
+	    }
+	    ipc_send(id, 1, 0, 0);
+	    ipc_send(id, 2, 0, 0);
+	    return 0;
+	}
+
+但是这种算法会导致整个阵列中只有NORDER个节点处于活跃状态，其余节点一直在等待输入，效率低下，所以放弃了这个思路，转而使用队列来记录一个节点得到的所有数据，然后每当获得了足够一轮数据处理所需的数据时，进行处理以及发送，可以保证阵列中尽可能多的节点处于活跃状态。每个proc的框架如下：
+
+proc:
+
+	// 数据定义部分
+    const int NDATA = 1;    // 需求数据数目
+    int i, j;               // 循环变量
+    int x, y;               // 当前proc的env_id在env_id_mat中的位置
+    int value, count = 0;   // 数据和获得数据计数
+    envid_t who;            // 信息来源
+    envid_t from[NDATA];    // 需求数据来源
+    int data[NDATA];        // 一轮中收集的数据
+    struct Queue queue[NDATA];  // 数据队列
+    int ready = 1;          // 是否收集了一轮所需的数据
+
+    // 进程初始化
+    // 从master获得PROCSTART信号，并设置x, y
+    value = ipc_recv(&who, 0, 0);
+    if (who == env_id_mat[0][0] && (value & PROCMASK) == PROCSTART) {
+        x = (value & 0xFF00) >> 8;
+        y = (value & 0XFF);
+        cprintf("east_proc(%d, %d) %08x: started successfully.\n", x, y, thisenv->env_id);
+    }
+    else
+        panic("east_proc: unexpected recv: %x got %x from %x\n", sys_getenvid(), value, who);
+
+    // 进程设置
+    // 设置需求数据来源
+    /*
+     * 在这里对from进行设置，
+     * from[i] = env_id 表示从env_id获取数据，存放在i位置上，
+     * 其对应的data和queue的下标为i。
+     */
+
+    // 进程主体
+    while (count < NORDER) {
+        // 检查数据的身份
+        value = ipc_recv(&who, 0, 0);
+        for (i = 0; i < NDATA; i++)
+            if (from[i] == who)
+                break;
+        if (i == NDATA)
+            panic("proc: unexpected recv: %08x got %x from %08x\n", sys_getenvid(), value, who);
+        q_push(&queue[i], value);
+
+        // 检查是否收集了用于一轮处理的数据
+        ready = 1;
+        for (i = 0; i < NDATA; i++)
+            if (q_empty(&queue[i]))
+                ready = 0;
+        if (ready) {
+            // 数据提取
+            for (i = 0; i < NDATA; i++) {
+                data[i] = q_top(&queue[i]);
+                q_pop(&queue[i]);
+            }
+            // 数据处理
+            /*
+             * 此处会将一轮所需数据保存在data中，
+             * 进行处理后发送给对应的env_id。
+             */
+            count++;
+        }
+    }
+    cprintf("proc(%d, %d) %08x: return successfully.\n", x, y, thisenv->env_id);
+    return 0;
+
+以上便实现了除master之外的proc。
+
+#####master设计
+
+对于master，我们需要实现的是创建proc阵列，记录proc阵列的每个位置的env_id，协调算法的开始与结束，获取输入输出。由于Hoare的算法中需要让每个proc知道自己东南西北的env_id，所以我采用一个矩阵env_id_mat进行记录。
+
+这里我定义了一个信息，
+
+	#define PROCMASK 0xFFFF0000
+	#define PROCSTART 0xAB010000
+
+高16位表示这个信息的种类，低16位携带其他信息。但是写到最后发现用处不是很大，也就没有扩展这个机制，只是在一开始用于开始进程时使用了。
+由于这个进程在被创建的时候不知道自己在阵列中的位置，我就把这个信息加载在start信号中由master一起传送给proc。
+考虑到proc一旦启动就会开始接收和发送信息，所以在master启动它们的时候要保持一个拓扑序，以防止proc与master发送的信息发生冲突。这里我采取的是south->east->center->north->west。
+
+考虑fork机制，它会复制全局变量，但是不会继承后续的修改，所以我们对env_id_mat进行的修改无法被之前创建的proc得知。原本我想设计一个创建proc的顺序回避这个问题，但是在创建center_proc时发现，它既需要知道自己发送对象（east、south），也需要知道自己的接收对象（north、west），所以在拓扑图上存在环。由于fork产生的env_id是累加的，所以我选择在master开始时就先填充env_id_mat，然后在实际创建proc时对env_id进行检查，以此回避了共享内存的问题，同时也保证了安全性。
+
+在向west发送了B中所有的流之后，master开始从south_proc接收数据，并组织成C矩阵，得到结果。
+
+在调试中遇到的麻烦主要是ipc机制使处于ipc_recv状态的env为不可执行，而JOS在无可执行env时会掉入monitor（其实不是缺陷，因为这时确实会导致JOS挂起），有时会不知道程序是在哪里丢失了信息，所以在整个程序中添加了大量调试输出，直接查看log就可以了解整个程序的运行流程了。
 
 #### Part 3: TEST
 
