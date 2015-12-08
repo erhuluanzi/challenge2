@@ -1,0 +1,2715 @@
+make[1]: `obj/fs/fs.img' is up to date.
+/usr/local/qemu/bin/qemu-system-i386 -hda obj/kern/kernel.img -serial mon:stdio -gdb tcp::25501 -D qemu.log -smp 1 -hdb obj/fs/fs.img 
+6828 decimal is 15254 octal!
+Physical memory: 66556K available, base = 640K, extended = 65532K
+check_page_alloc() succeeded!
+check_page() succeeded!
+check_kern_pgdir() succeeded!
+check_page_installed_pgdir() succeeded!
+SMP: CPU 0 found 1 CPU(s)
+enabled interrupts: 1 2 4
+FS is running
+FS can do I/O
+Device 1 presence: 1
+superblock is good
+bitmap is good
+south_proc(11, 1) 00001002: started successfully.
+south_proc(11, 2) 00001003: started successfully.
+south_proc(11, 3) 00001004: started successfully.
+south_proc(11, 4) 00001005: started successfully.
+south_proc(11, 5) 00001006: started successfully.
+south_proc(11, 6) 00001007: started successfully.
+south_proc(11, 7) 00001008: started successfully.
+south_proc(11, 8) 00001009: started successfully.
+south_proc(11, 9) 0000100a: started successfully.
+south_proc(11, 10) 0000100b: started successfully.
+east_proc(1, 11) 0000100c: started successfully.
+east_proc(2, 11) 0000100d: started successfully.
+east_proc(3, 11) 0000100e: started successfully.
+east_proc(4, 11) 0000100f: started successfully.
+east_proc(5, 11) 00001010: started successfully.
+east_proc(6, 11) 00001011: started successfully.
+east_proc(7, 11) 00001012: started successfully.
+east_proc(8, 11) 00001013: started successfully.
+east_proc(9, 11) 00001014: started successfully.
+east_proc(10, 11) 00001015: started successfully.
+center_proc(10, 10) 00001016: started successfully.
+center_proc(10, 9) 00001017: started successfully.
+center_proc(10, 8) 00001018: started successfully.
+center_proc(10, 7) 00001019: started successfully.
+center_proc(10, 6) 0000101a: started successfully.
+center_proc(10, 5) 0000101b: started successfully.
+center_proc(10, 4) 0000101c: started successfully.
+center_proc(10, 3) 0000101d: started successfully.
+center_proc(10, 2) 0000101e: started successfully.
+center_proc(10, 1) 0000101f: started successfully.
+center_proc(9, 10) 00001020: started successfully.
+center_proc(9, 9) 00001021: started successfully.
+center_proc(9, 8) 00001022: started successfully.
+center_proc(9, 7) 00001023: started successfully.
+center_proc(9, 6) 00001024: started successfully.
+center_proc(9, 5) 00001025: started successfully.
+center_proc(9, 4) 00001026: started successfully.
+center_proc(9, 3) 00001027: started successfully.
+center_proc(9, 2) 00001028: started successfully.
+center_proc(9, 1) 00001029: started successfully.
+center_proc(8, 10) 0000102a: started successfully.
+center_proc(8, 9) 0000102b: started successfully.
+center_proc(8, 8) 0000102c: started successfully.
+center_proc(8, 7) 0000102d: started successfully.
+center_proc(8, 6) 0000102e: started successfully.
+center_proc(8, 5) 0000102f: started successfully.
+center_proc(8, 4) 00001030: started successfully.
+center_proc(8, 3) 00001031: started successfully.
+center_proc(8, 2) 00001032: started successfully.
+center_proc(8, 1) 00001033: started successfully.
+center_proc(7, 10) 00001034: started successfully.
+center_proc(7, 9) 00001035: started successfully.
+center_proc(7, 8) 00001036: started successfully.
+center_proc(7, 7) 00001037: started successfully.
+center_proc(7, 6) 00001038: started successfully.
+center_proc(7, 5) 00001039: started successfully.
+center_proc(7, 4) 0000103a: started successfully.
+center_proc(7, 3) 0000103b: started successfully.
+center_proc(7, 2) 0000103c: started successfully.
+center_proc(7, 1) 0000103d: started successfully.
+center_proc(6, 10) 0000103e: started successfully.
+center_proc(6, 9) 0000103f: started successfully.
+center_proc(6, 8) 00001040: started successfully.
+center_proc(6, 7) 00001041: started successfully.
+center_proc(6, 6) 00001042: started successfully.
+center_proc(6, 5) 00001043: started successfully.
+center_proc(6, 4) 00001044: started successfully.
+center_proc(6, 3) 00001045: started successfully.
+center_proc(6, 2) 00001046: started successfully.
+center_proc(6, 1) 00001047: started successfully.
+center_proc(5, 10) 00001048: started successfully.
+center_proc(5, 9) 00001049: started successfully.
+center_proc(5, 8) 0000104a: started successfully.
+center_proc(5, 7) 0000104b: started successfully.
+center_proc(5, 6) 0000104c: started successfully.
+center_proc(5, 5) 0000104d: started successfully.
+center_proc(5, 4) 0000104e: started successfully.
+center_proc(5, 3) 0000104f: started successfully.
+center_proc(5, 2) 00001050: started successfully.
+center_proc(5, 1) 00001051: started successfully.
+center_proc(4, 10) 00001052: started successfully.
+center_proc(4, 9) 00001053: started successfully.
+center_proc(4, 8) 00001054: started successfully.
+center_proc(4, 7) 00001055: started successfully.
+center_proc(4, 6) 00001056: started successfully.
+center_proc(4, 5) 00001057: started successfully.
+center_proc(4, 4) 00001058: started successfully.
+center_proc(4, 3) 00001059: started successfully.
+center_proc(4, 2) 0000105a: started successfully.
+center_proc(4, 1) 0000105b: started successfully.
+center_proc(3, 10) 0000105c: started successfully.
+center_proc(3, 9) 0000105d: started successfully.
+center_proc(3, 8) 0000105e: started successfully.
+center_proc(3, 7) 0000105f: started successfully.
+center_proc(3, 6) 00001060: started successfully.
+center_proc(3, 5) 00001061: started successfully.
+center_proc(3, 4) 00001062: started successfully.
+center_proc(3, 3) 00001063: started successfully.
+center_proc(3, 2) 00001064: started successfully.
+center_proc(3, 1) 00001065: started successfully.
+center_proc(2, 10) 00001066: started successfully.
+center_proc(2, 9) 00001067: started successfully.
+center_proc(2, 8) 00001068: started successfully.
+center_proc(2, 7) 00001069: started successfully.
+center_proc(2, 6) 0000106a: started successfully.
+center_proc(2, 5) 0000106b: started successfully.
+center_proc(2, 4) 0000106c: started successfully.
+center_proc(2, 3) 0000106d: started successfully.
+center_proc(2, 2) 0000106e: started successfully.
+center_proc(2, 1) 0000106f: started successfully.
+center_proc(1, 10) 00001070: started successfully.
+center_proc(1, 9) 00001071: started successfully.
+center_proc(1, 8) 00001072: started successfully.
+center_proc(1, 7) 00001073: started successfully.
+center_proc(1, 6) 00001074: started successfully.
+center_proc(1, 5) 00001075: started successfully.
+center_proc(1, 4) 00001076: started successfully.
+center_proc(1, 3) 00001077: started successfully.
+center_proc(1, 2) 00001078: started successfully.
+center_proc(1, 1) 00001079: started successfully.
+north_proc(0, 1) 0000107a: started successfully.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: started successfully.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: started successfully.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: started successfully.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: started successfully.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: started successfully.
+north_proc(0, 7) 00001080: started successfully.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: started successfully.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: started successfully.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: started successfully.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+west_proc(1, 0) 00001084: started successfully.
+west_proc(2, 0) 00001085: started successfully.
+west_proc(3, 0) 00001086: started successfully.
+west_proc(4, 0) 00001087: started successfully.
+west_proc(5, 0) 00001088: started successfully.
+west_proc(6, 0) 00001089: started successfully.
+west_proc(7, 0) 0000108a: started successfully.
+west_proc(8, 0) 0000108b: started successfully.
+west_proc(9, 0) 0000108c: started successfully.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 2 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 7 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: started successfully.
+collector(11, 11) 0000108e: started successfully.
+collector(11, 11) 0000108e: collecting results.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: sending 0 to center_proc(1, 1) 00001079.
+north_proc(0, 2) 0000107b: sending 0 to center_proc(1, 2) 00001078.
+north_proc(0, 3) 0000107c: sending 0 to center_proc(1, 3) 00001077.
+north_proc(0, 4) 0000107d: sending 0 to center_proc(1, 4) 00001076.
+north_proc(0, 5) 0000107e: sending 0 to center_proc(1, 5) 00001075.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: sending 0 to center_proc(1, 7) 00001073.
+north_proc(0, 8) 00001081: sending 0 to center_proc(1, 8) 00001072.
+north_proc(0, 9) 00001082: sending 0 to center_proc(1, 9) 00001071.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+north_proc(0, 1) 0000107a: return successfully.
+north_proc(0, 2) 0000107b: return successfully.
+north_proc(0, 3) 0000107c: return successfully.
+north_proc(0, 4) 0000107d: return successfully.
+north_proc(0, 5) 0000107e: return successfully.
+north_proc(0, 6) 0000107f: sending 0 to center_proc(1, 6) 00001074.
+north_proc(0, 7) 00001080: return successfully.
+north_proc(0, 6) 0000107f: return successfully.
+north_proc(0, 8) 00001081: return successfully.
+north_proc(0, 9) 00001082: return successfully.
+north_proc(0, 10) 00001083: sending 0 to center_proc(1, 10) 00001070.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+north_proc(0, 10) 00001083: return successfully.
+center_proc(2, 1) 0000106f: sending 5 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 2 to proc(2, 2) 0000106e.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+west_proc(1, 0) 00001084: sending 4 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 5 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+center_proc(3, 1) 00001065: sending 19 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 7 to proc(3, 2) 00001064.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+center_proc(4, 1) 0000105b: sending 20 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(2, 2) 0000106e: sending 15 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 2 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 1) 00001079: sending 4 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 4 to proc(1, 2) 00001078.
+west_proc(1, 0) 00001084: sending 3 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 8 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 9 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+center_proc(5, 1) 00001051: sending 21 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(3, 2) 00001064: sending 22 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 7 to proc(3, 3) 00001063.
+center_proc(2, 1) 0000106f: sending 14 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 5 to proc(2, 2) 0000106e.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 20 to proc(2, 2) 0000106e.
+center_proc(1, 1) 00001079: sending 3 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 3 to proc(1, 2) 00001078.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+center_proc(6, 1) 00001047: sending 22 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(4, 2) 0000105a: sending 23 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 1) 00001065: sending 16 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(2, 3) 0000106d: sending 20 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 2 to proc(2, 4) 0000106c.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 2) 00001078: sending 4 to proc(1, 3) 00001077.
+center_proc(7, 1) 0000103d: sending 26 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(5, 2) 00001050: sending 24 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 1) 0000105b: sending 17 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 3) 00001063: sending 48 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 7 to proc(3, 4) 00001062.
+center_proc(2, 2) 0000106e: sending 45 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 5 to proc(2, 3) 0000106d.
+center_proc(2, 1) 0000106f: sending 19 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 8 to proc(2, 2) 0000106e.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+center_proc(1, 3) 00001077: sending 24 to proc(2, 3) 0000106d.
+center_proc(1, 2) 00001078: sending 15 to proc(2, 2) 0000106e.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 1 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+center_proc(8, 1) 00001033: sending 40 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(6, 2) 00001046: sending 29 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 1) 00001051: sending 18 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 3) 00001059: sending 49 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(3, 2) 00001064: sending 46 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(3, 1) 00001065: sending 37 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 9 to proc(3, 2) 00001064.
+center_proc(2, 4) 0000106c: sending 3 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 2 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 3) 00001077: sending 4 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 3 to proc(1, 3) 00001077.
+center_proc(9, 1) 00001029: sending 41 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(7, 2) 0000103c: sending 39 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 1) 00001047: sending 19 to proc(7, 1) 0000103d.
+center_proc(5, 3) 0000104f: sending 50 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 2) 0000105a: sending 47 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(4, 1) 0000105b: sending 38 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 4) 00001062: sending 10 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 7 to proc(3, 5) 00001061.
+center_proc(2, 3) 0000106d: sending 59 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 5 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 55 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 8 to proc(2, 3) 0000106d.
+center_proc(2, 1) 0000106f: sending 3 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 1 to proc(2, 2) 0000106e.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 4 to proc(2, 4) 0000106c.
+center_proc(1, 3) 00001077: sending 18 to proc(2, 3) 0000106d.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 1 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+center_proc(10, 1) 0000101f: sending 42 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(8, 2) 00001032: sending 46 to proc(9, 2) 00001028.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 1) 0000103d: sending 23 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 3) 00001045: sending 56 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 48 to proc(6, 2) 00001046.
+center_proc(5, 1) 00001051: sending 39 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 4) 00001058: sending 11 to proc(5, 4) 0000104e.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(3, 3) 00001063: sending 63 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 64 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 9 to proc(3, 3) 00001063.
+center_proc(3, 1) 00001065: sending 5 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(2, 5) 0000106b: sending 3 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 2 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 4) 00001076: sending 4 to proc(1, 5) 00001075.
+center_proc(1, 3) 00001077: sending 3 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+south_proc(11, 1) 00001002: sending 42 to collector(11, 11) 0000108e.
+center_proc(9, 2) 00001028: sending 47 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 1) 00001033: sending 37 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 3) 0000103b: sending 70 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(6, 1) 00001047: sending 40 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 4) 0000104e: sending 12 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(4, 3) 00001059: sending 64 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 65 to proc(5, 2) 00001050.
+center_proc(4, 1) 0000105b: sending 6 to proc(5, 1) 00001051.
+center_proc(3, 5) 00001061: sending 10 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 7 to proc(3, 6) 00001060.
+center_proc(2, 4) 0000106c: sending 9 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 5 to proc(2, 5) 0000106b.
+center_proc(2, 3) 0000106d: sending 74 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 8 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 10 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 1 to proc(2, 3) 0000106d.
+center_proc(2, 1) 0000106f: sending 3 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 1 to proc(2, 2) 0000106e.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+center_proc(1, 5) 00001075: sending 4 to proc(2, 5) 0000106b.
+center_proc(1, 4) 00001076: sending 3 to proc(2, 4) 0000106c.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+west_proc(2, 0) 00001085: sending 2 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 7 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+center_proc(10, 2) 0000101e: sending 48 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 1) 00001029: sending 38 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 3) 00001031: sending 98 to proc(9, 3) 00001027.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(7, 1) 0000103d: sending 44 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 4) 00001044: sending 13 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 5) 00001057: sending 11 to proc(5, 5) 0000104d.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 4) 00001062: sending 10 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(3, 3) 00001063: sending 110 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 9 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 11 to proc(4, 2) 0000105a.
+center_proc(3, 1) 00001065: sending 5 to proc(4, 1) 0000105b.
+center_proc(2, 6) 0000106a: sending 3 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 2 to proc(2, 7) 00001069.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 5) 00001075: sending 4 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 3 to proc(1, 5) 00001075.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+south_proc(11, 2) 00001003: sending 48 to collector(11, 11) 0000108e.
+center_proc(10, 1) 0000101f: sending 39 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(9, 3) 00001027: sending 99 to proc(10, 3) 0000101d.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(8, 1) 00001033: sending 58 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 4) 0000103a: sending 15 to proc(8, 4) 00001030.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(6, 2) 00001046: sending 53 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 65 to proc(6, 3) 00001045.
+center_proc(5, 1) 00001051: sending 7 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 4) 00001058: sending 11 to proc(5, 4) 0000104e.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(3, 6) 00001060: sending 10 to proc(4, 6) 00001056.
+center_proc(2, 5) 0000106b: sending 9 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 5 to proc(2, 6) 0000106a.
+center_proc(2, 4) 0000106c: sending 11 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 8 to proc(2, 5) 0000106b.
+center_proc(2, 3) 0000106d: sending 13 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 1 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 10 to proc(3, 2) 00001064.
+center_proc(2, 1) 0000106f: sending 5 to proc(3, 1) 00001065.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(1, 6) 00001074: sending 4 to proc(2, 6) 0000106a.
+center_proc(1, 5) 00001075: sending 3 to proc(2, 5) 0000106b.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+south_proc(11, 1) 00001002: sending 39 to collector(11, 11) 0000108e.
+center_proc(10, 3) 0000101d: sending 100 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(9, 1) 00001029: sending 59 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 4) 00001030: sending 22 to proc(9, 4) 00001026.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(7, 2) 0000103c: sending 63 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 1) 00001047: sending 8 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 5) 0000104d: sending 12 to proc(6, 5) 00001043.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 6) 00001060: sending 7 to proc(3, 7) 0000105f.
+center_proc(3, 5) 00001061: sending 10 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(3, 4) 00001062: sending 20 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 9 to proc(3, 5) 00001061.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(2, 7) 00001069: sending 15 to proc(3, 7) 0000105f.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(1, 6) 00001074: sending 4 to proc(1, 7) 00001073.
+center_proc(1, 5) 00001075: sending 3 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+west_proc(1, 0) 00001084: sending 4 to center_proc(1, 1) 00001079.
+west_proc(2, 0) 00001085: sending 5 to center_proc(2, 1) 0000106f.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+south_proc(11, 3) 00001004: sending 100 to collector(11, 11) 0000108e.
+center_proc(10, 1) 0000101f: sending 60 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(9, 4) 00001026: sending 23 to proc(10, 4) 0000101c.
+center_proc(8, 2) 00001032: sending 70 to proc(9, 2) 00001028.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 1) 0000103d: sending 12 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 5) 00001043: sending 13 to proc(7, 5) 00001039.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 3) 00001045: sending 71 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 12 to proc(6, 4) 00001044.
+center_proc(5, 2) 00001050: sending 66 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 6) 00001056: sending 11 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 5) 00001057: sending 11 to proc(5, 5) 0000104d.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 3) 00001059: sending 111 to proc(5, 3) 0000104f.
+center_proc(4, 1) 0000105b: sending 6 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(2, 7) 00001069: sending 2 to proc(2, 8) 00001068.
+center_proc(2, 6) 0000106a: sending 9 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 5 to proc(2, 7) 00001069.
+center_proc(2, 5) 0000106b: sending 11 to proc(3, 5) 00001061.
+center_proc(2, 4) 0000106c: sending 2 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+center_proc(1, 7) 00001073: sending 20 to proc(2, 7) 00001069.
+center_proc(1, 6) 00001074: sending 3 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 3 to proc(1, 7) 00001073.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 1) 00001079: sending 4 to proc(2, 1) 0000106f.
+south_proc(11, 1) 00001002: sending 60 to collector(11, 11) 0000108e.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 2) 00001028: sending 71 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 1) 00001033: sending 26 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 5) 00001039: sending 15 to proc(8, 5) 0000102f.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 3) 0000103b: sending 85 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(6, 2) 00001046: sending 71 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 6) 0000104c: sending 12 to proc(6, 6) 00001042.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 1) 00001051: sending 7 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(3, 7) 0000105f: sending 50 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 7 to proc(3, 8) 0000105e.
+center_proc(3, 6) 00001060: sending 10 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(2, 8) 00001068: sending 18 to proc(3, 8) 0000105e.
+center_proc(2, 5) 0000106b: sending 8 to proc(2, 6) 0000106a.
+center_proc(2, 1) 0000106f: sending 2 to proc(2, 2) 0000106e.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 7) 00001073: sending 4 to proc(1, 8) 00001072.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+east_proc(1, 11) 0000100c: nothing to do.
+center_proc(10, 4) 0000101c: sending 24 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 2) 0000101e: sending 72 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 1) 00001029: sending 27 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 5) 0000102f: sending 22 to proc(9, 5) 00001025.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 3) 00001031: sending 113 to proc(9, 3) 00001027.
+center_proc(7, 2) 0000103c: sending 81 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 6) 00001042: sending 13 to proc(7, 6) 00001038.
+center_proc(6, 4) 00001044: sending 13 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 1) 00001047: sending 8 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 5) 0000104d: sending 12 to proc(6, 5) 00001043.
+center_proc(5, 3) 0000104f: sending 112 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 7) 00001055: sending 55 to proc(5, 7) 0000104b.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 6) 00001056: sending 11 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 4) 00001058: sending 21 to proc(5, 4) 0000104e.
+center_proc(4, 2) 0000105a: sending 12 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 5) 00001061: sending 20 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 9 to proc(3, 6) 00001060.
+center_proc(3, 3) 00001063: sending 17 to proc(4, 3) 00001059.
+center_proc(2, 8) 00001068: sending 2 to proc(2, 9) 00001067.
+center_proc(2, 7) 00001069: sending 45 to proc(3, 7) 0000105f.
+center_proc(2, 7) 00001069: sending 5 to proc(2, 8) 00001068.
+center_proc(2, 6) 0000106a: sending 11 to proc(3, 6) 00001060.
+center_proc(2, 2) 0000106e: sending 1 to proc(2, 3) 0000106d.
+center_proc(1, 8) 00001072: sending 24 to proc(2, 8) 00001068.
+center_proc(1, 7) 00001073: sending 15 to proc(2, 7) 00001069.
+center_proc(1, 7) 00001073: sending 3 to proc(1, 8) 00001072.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+center_proc(1, 1) 00001079: sending 4 to proc(1, 2) 00001078.
+south_proc(11, 2) 00001003: sending 72 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 24 to collector(11, 11) 0000108e.
+center_proc(10, 1) 0000101f: sending 28 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(9, 5) 00001025: sending 23 to proc(10, 5) 0000101b.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 2) 00001032: sending 88 to proc(9, 2) 00001028.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 4) 0000103a: sending 15 to proc(8, 4) 00001030.
+center_proc(7, 1) 0000103d: sending 12 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 3) 00001045: sending 118 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(5, 7) 0000104b: sending 60 to proc(6, 7) 00001041.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 2) 00001050: sending 13 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(3, 8) 0000105e: sending 60 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 7 to proc(3, 9) 0000105d.
+center_proc(3, 7) 0000105f: sending 50 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 11 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(3, 1) 00001065: sending 19 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 7 to proc(3, 2) 00001064.
+center_proc(2, 9) 00001067: sending 3 to proc(3, 9) 0000105d.
+center_proc(2, 6) 0000106a: sending 8 to proc(2, 7) 00001069.
+center_proc(2, 5) 0000106b: sending 2 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 1 to proc(2, 6) 0000106a.
+center_proc(2, 3) 0000106d: sending 13 to proc(3, 3) 00001063.
+center_proc(1, 8) 00001072: sending 4 to proc(1, 9) 00001071.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+west_proc(1, 0) 00001084: sending 3 to center_proc(1, 1) 00001079.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+south_proc(11, 1) 00001002: sending 28 to collector(11, 11) 0000108e.
+center_proc(10, 5) 0000101b: sending 24 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(9, 3) 00001027: sending 114 to proc(10, 3) 0000101d.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(9, 2) 00001028: sending 89 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 1) 00001033: sending 26 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 6) 00001038: sending 15 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 132 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(6, 5) 00001043: sending 13 to proc(7, 5) 00001039.
+center_proc(6, 2) 00001046: sending 18 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 6) 0000104c: sending 12 to proc(6, 6) 00001042.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 4) 0000104e: sending 22 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(4, 8) 00001054: sending 66 to proc(5, 8) 0000104a.
+center_proc(4, 7) 00001055: sending 55 to proc(5, 7) 0000104b.
+center_proc(4, 5) 00001057: sending 21 to proc(5, 5) 0000104d.
+center_proc(4, 3) 00001059: sending 18 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 12 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(4, 1) 0000105b: sending 20 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 6) 00001060: sending 20 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 9 to proc(3, 7) 0000105f.
+center_proc(3, 4) 00001062: sending 3 to proc(4, 4) 00001058.
+center_proc(2, 9) 00001067: sending 2 to proc(2, 10) 00001066.
+center_proc(2, 8) 00001068: sending 54 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 5 to proc(2, 9) 00001067.
+center_proc(2, 7) 00001069: sending 55 to proc(3, 7) 0000105f.
+center_proc(2, 3) 0000106d: sending 1 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 15 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 2 to proc(2, 3) 0000106d.
+center_proc(2, 1) 0000106f: sending 14 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 5 to proc(2, 2) 0000106e.
+center_proc(1, 9) 00001071: sending 4 to proc(2, 9) 00001067.
+center_proc(1, 8) 00001072: sending 18 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 3 to proc(1, 9) 00001071.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 2) 00001078: sending 20 to proc(2, 2) 0000106e.
+center_proc(1, 1) 00001079: sending 3 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 3 to proc(1, 2) 00001078.
+west_proc(2, 0) 00001085: sending 8 to center_proc(2, 1) 0000106f.
+west_proc(3, 0) 00001086: sending 9 to center_proc(3, 1) 00001065.
+south_proc(11, 5) 00001006: sending 24 to collector(11, 11) 0000108e.
+center_proc(10, 3) 0000101d: sending 115 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 2) 0000101e: sending 90 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 1) 00001029: sending 27 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 6) 0000102e: sending 22 to proc(9, 6) 00001024.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 4) 00001030: sending 22 to proc(9, 4) 00001026.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 160 to proc(9, 3) 00001027.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(7, 2) 0000103c: sending 28 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 7) 00001041: sending 65 to proc(7, 7) 00001037.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 23 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(5, 3) 0000104f: sending 19 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(5, 2) 00001050: sending 13 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(5, 1) 00001051: sending 21 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(3, 9) 0000105d: sending 10 to proc(4, 9) 00001053.
+center_proc(3, 8) 0000105e: sending 60 to proc(4, 8) 00001054.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(3, 3) 00001063: sending 17 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 22 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 7 to proc(3, 3) 00001063.
+center_proc(2, 10) 00001066: sending 3 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 2 to proc(2, 11) 0000100d.
+center_proc(2, 7) 00001069: sending 8 to proc(2, 8) 00001068.
+center_proc(2, 6) 0000106a: sending 2 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 1 to proc(2, 7) 00001069.
+center_proc(2, 4) 0000106c: sending 2 to proc(3, 4) 00001062.
+center_proc(1, 9) 00001071: sending 4 to proc(1, 10) 00001070.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 4 to proc(1, 3) 00001077.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+south_proc(11, 2) 00001003: sending 90 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 115 to collector(11, 11) 0000108e.
+east_proc(2, 11) 0000100d: nothing to do.
+center_proc(10, 1) 0000101f: sending 28 to proc(11, 1) 00001002.
+center_proc(9, 6) 00001024: sending 23 to proc(10, 6) 0000101a.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 4) 00001026: sending 23 to proc(10, 4) 0000101c.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 161 to proc(10, 3) 0000101d.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(8, 2) 00001032: sending 35 to proc(9, 2) 00001028.
+center_proc(7, 7) 00001037: sending 75 to proc(8, 7) 0000102d.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 5) 00001039: sending 15 to proc(8, 5) 0000102f.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 25 to proc(8, 4) 00001030.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(6, 6) 00001042: sending 13 to proc(7, 6) 00001038.
+center_proc(6, 3) 00001045: sending 25 to proc(7, 3) 0000103b.
+center_proc(6, 2) 00001046: sending 18 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(6, 1) 00001047: sending 22 to proc(7, 1) 0000103d.
+center_proc(5, 8) 0000104a: sending 72 to proc(6, 8) 00001040.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 7) 0000104b: sending 60 to proc(6, 7) 00001041.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 5) 0000104d: sending 22 to proc(6, 5) 00001043.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 21 to proc(5, 6) 0000104c.
+center_proc(4, 4) 00001058: sending 4 to proc(5, 4) 0000104e.
+center_proc(4, 3) 00001059: sending 18 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 23 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 9) 0000105d: sending 7 to proc(3, 10) 0000105c.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 7) 0000105f: sending 100 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 9 to proc(3, 8) 0000105e.
+center_proc(3, 5) 00001061: sending 3 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(3, 1) 00001065: sending 16 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(2, 9) 00001067: sending 9 to proc(3, 9) 0000105d.
+center_proc(2, 8) 00001068: sending 66 to proc(3, 8) 0000105e.
+center_proc(2, 4) 0000106c: sending 1 to proc(2, 5) 0000106b.
+center_proc(2, 3) 0000106d: sending 20 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 2 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 45 to proc(3, 2) 00001064.
+center_proc(2, 1) 0000106f: sending 19 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 8 to proc(2, 2) 0000106e.
+center_proc(1, 10) 00001070: sending 4 to proc(2, 10) 00001066.
+center_proc(1, 10) 00001070: sending 4 to proc(1, 11) 0000100c.
+center_proc(1, 9) 00001071: sending 3 to proc(2, 9) 00001067.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 3) 00001077: sending 24 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 4 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 15 to proc(2, 2) 0000106e.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+west_proc(2, 0) 00001085: sending 1 to center_proc(2, 1) 0000106f.
+east_proc(1, 11) 0000100c: nothing to do.
+center_proc(10, 6) 0000101a: sending 24 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 4) 0000101c: sending 24 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 3) 0000101d: sending 162 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(8, 7) 0000102d: sending 110 to proc(9, 7) 00001023.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 5) 0000102f: sending 22 to proc(9, 5) 00001025.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 32 to proc(9, 4) 00001026.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 2) 0000103c: sending 28 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 8) 00001040: sending 78 to proc(7, 8) 00001036.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 5) 00001043: sending 23 to proc(7, 5) 00001039.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 3) 0000104f: sending 19 to proc(6, 3) 00001045.
+center_proc(5, 2) 00001050: sending 24 to proc(6, 2) 00001046.
+center_proc(4, 9) 00001053: sending 11 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 8) 00001054: sending 66 to proc(5, 8) 0000104a.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 1) 0000105b: sending 17 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 10) 0000105c: sending 10 to proc(4, 10) 00001052.
+center_proc(3, 6) 00001060: sending 3 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 4) 00001062: sending 3 to proc(4, 4) 00001058.
+center_proc(3, 3) 00001063: sending 48 to proc(4, 3) 00001059.
+center_proc(2, 9) 00001067: sending 5 to proc(2, 10) 00001066.
+center_proc(2, 8) 00001068: sending 8 to proc(2, 9) 00001067.
+center_proc(2, 7) 00001069: sending 10 to proc(3, 7) 0000105f.
+center_proc(2, 5) 0000106b: sending 2 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 1 to proc(2, 6) 0000106a.
+center_proc(2, 2) 0000106e: sending 5 to proc(2, 3) 0000106d.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+south_proc(11, 1) 00001002: sending 28 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 162 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 24 to collector(11, 11) 0000108e.
+center_proc(9, 7) 00001023: sending 115 to proc(10, 7) 00001019.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 5) 00001025: sending 23 to proc(10, 5) 0000101b.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 33 to proc(10, 4) 0000101c.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 2) 00001028: sending 36 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 2) 00001032: sending 35 to proc(9, 2) 00001028.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 8) 00001036: sending 90 to proc(8, 8) 0000102c.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 6) 00001038: sending 15 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 5) 00001039: sending 25 to proc(8, 5) 0000102f.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 1) 0000103d: sending 26 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 7) 00001041: sending 65 to proc(7, 7) 00001037.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(5, 9) 00001049: sending 12 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 8) 0000104a: sending 72 to proc(6, 8) 00001040.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 6) 0000104c: sending 22 to proc(6, 6) 00001042.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 4) 0000104e: sending 5 to proc(6, 4) 00001044.
+center_proc(5, 1) 00001051: sending 18 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 7) 00001055: sending 105 to proc(5, 7) 0000104b.
+center_proc(4, 5) 00001057: sending 4 to proc(5, 5) 0000104d.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(3, 10) 0000105c: sending 7 to proc(3, 11) 0000100e.
+center_proc(3, 9) 0000105d: sending 10 to proc(4, 9) 00001053.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 8) 0000105e: sending 120 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 9 to proc(3, 9) 0000105d.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(3, 3) 00001063: sending 7 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 46 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(3, 1) 00001065: sending 37 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 9 to proc(3, 2) 00001064.
+center_proc(2, 10) 00001066: sending 9 to proc(3, 10) 0000105c.
+center_proc(2, 7) 00001069: sending 1 to proc(2, 8) 00001068.
+center_proc(2, 6) 0000106a: sending 2 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 1 to proc(2, 7) 00001069.
+center_proc(2, 4) 0000106c: sending 3 to proc(3, 4) 00001062.
+center_proc(2, 3) 0000106d: sending 59 to proc(3, 3) 00001063.
+center_proc(1, 9) 00001071: sending 3 to proc(1, 10) 00001070.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 4 to proc(2, 4) 0000106c.
+center_proc(1, 2) 00001078: sending 3 to proc(1, 3) 00001077.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+east_proc(3, 11) 0000100e: nothing to do.
+center_proc(10, 7) 00001019: sending 120 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 5) 0000101b: sending 24 to proc(11, 5) 00001006.
+center_proc(10, 4) 0000101c: sending 34 to proc(11, 4) 00001005.
+center_proc(10, 2) 0000101e: sending 37 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 2) 00001028: sending 36 to proc(10, 2) 0000101e.
+center_proc(8, 8) 0000102c: sending 132 to proc(9, 8) 00001022.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 6) 0000102e: sending 22 to proc(9, 6) 00001024.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 32 to proc(9, 5) 00001025.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 1) 00001033: sending 40 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 3) 0000103b: sending 39 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(6, 9) 0000103f: sending 13 to proc(7, 9) 00001035.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 6) 00001042: sending 23 to proc(7, 6) 00001038.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 1) 00001047: sending 19 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 10) 00001052: sending 11 to proc(5, 10) 00001048.
+center_proc(4, 9) 00001053: sending 11 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 6) 00001056: sending 4 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 4) 00001058: sending 4 to proc(5, 4) 0000104e.
+center_proc(4, 3) 00001059: sending 49 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 47 to proc(5, 2) 00001050.
+center_proc(4, 1) 0000105b: sending 38 to proc(5, 1) 00001051.
+center_proc(3, 7) 0000105f: sending 15 to proc(4, 7) 00001055.
+center_proc(3, 5) 00001061: sending 3 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(2, 10) 00001066: sending 5 to proc(2, 11) 0000100d.
+center_proc(2, 9) 00001067: sending 11 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 8 to proc(2, 10) 00001066.
+center_proc(2, 8) 00001068: sending 12 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 1 to proc(2, 9) 00001067.
+center_proc(2, 4) 0000106c: sending 2 to proc(2, 5) 0000106b.
+center_proc(2, 3) 0000106d: sending 5 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 55 to proc(3, 2) 00001064.
+center_proc(2, 1) 0000106f: sending 3 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 1 to proc(2, 2) 0000106e.
+center_proc(1, 10) 00001070: sending 3 to proc(2, 10) 00001066.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+center_proc(1, 3) 00001077: sending 18 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 3 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+south_proc(11, 2) 00001003: sending 37 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 120 to collector(11, 11) 0000108e.
+east_proc(2, 11) 0000100d: nothing to do.
+center_proc(9, 8) 00001022: sending 138 to proc(10, 8) 00001018.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 6) 00001024: sending 23 to proc(10, 6) 0000101a.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 33 to proc(10, 5) 0000101b.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(9, 1) 00001029: sending 41 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 3) 00001031: sending 67 to proc(9, 3) 00001027.
+center_proc(7, 9) 00001035: sending 15 to proc(8, 9) 0000102b.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 7) 00001037: sending 75 to proc(8, 7) 0000102d.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 6) 00001038: sending 25 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 1) 0000103d: sending 23 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 8) 00001040: sending 78 to proc(7, 8) 00001036.
+center_proc(6, 4) 00001044: sending 6 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 3) 00001045: sending 25 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(5, 9) 00001049: sending 12 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 7) 0000104b: sending 110 to proc(6, 7) 00001041.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 5) 0000104d: sending 5 to proc(6, 5) 00001043.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 8) 00001054: sending 126 to proc(5, 8) 0000104a.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 10) 0000105c: sending 10 to proc(4, 10) 00001052.
+center_proc(3, 9) 0000105d: sending 20 to proc(4, 9) 00001053.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 6) 00001060: sending 3 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 4) 00001062: sending 10 to proc(4, 4) 00001058.
+center_proc(3, 3) 00001063: sending 63 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(2, 7) 00001069: sending 10 to proc(3, 7) 0000105f.
+center_proc(2, 5) 0000106b: sending 3 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 2 to proc(2, 6) 0000106a.
+center_proc(2, 2) 0000106e: sending 8 to proc(2, 3) 0000106d.
+center_proc(1, 10) 00001070: sending 3 to proc(1, 11) 0000100c.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 4) 00001076: sending 4 to proc(1, 5) 00001075.
+west_proc(1, 0) 00001084: sending 1 to center_proc(1, 1) 00001079.
+west_proc(1, 0) 00001084: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+center_proc(10, 8) 00001018: sending 144 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 2) 0000101e: sending 37 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(10, 1) 0000101f: sending 42 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(8, 9) 0000102b: sending 22 to proc(9, 9) 00001021.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 7) 0000102d: sending 110 to proc(9, 7) 00001023.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 32 to proc(9, 6) 00001024.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 1) 00001033: sending 37 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 4) 0000103a: sending 8 to proc(8, 4) 00001030.
+center_proc(7, 3) 0000103b: sending 39 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 7) 00001041: sending 115 to proc(7, 7) 00001037.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 2) 00001046: sending 29 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: sending 5 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 50 to proc(6, 3) 00001045.
+center_proc(5, 1) 00001051: sending 39 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 7) 00001055: sending 20 to proc(5, 7) 0000104b.
+center_proc(4, 5) 00001057: sending 4 to proc(5, 5) 0000104d.
+center_proc(3, 8) 0000105e: sending 18 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 4) 00001062: sending 7 to proc(3, 5) 00001061.
+center_proc(3, 2) 00001064: sending 64 to proc(4, 2) 0000105a.
+center_proc(2, 10) 00001066: sending 11 to proc(3, 10) 0000105c.
+center_proc(2, 9) 00001067: sending 2 to proc(3, 9) 0000105d.
+center_proc(2, 7) 00001069: sending 1 to proc(2, 8) 00001068.
+center_proc(2, 6) 0000106a: sending 3 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 2 to proc(2, 7) 00001069.
+center_proc(2, 4) 0000106c: sending 9 to proc(3, 4) 00001062.
+center_proc(2, 3) 0000106d: sending 74 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 8 to proc(2, 4) 0000106c.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(1, 5) 00001075: sending 4 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 4 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 3 to proc(2, 4) 0000106c.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+center_proc(1, 1) 00001079: sending 1 to proc(2, 1) 0000106f.
+center_proc(1, 1) 00001079: sending 1 to proc(1, 2) 00001078.
+center_proc(1, 1) 00001079: return successfully.
+west_proc(2, 0) 00001085: sending 1 to center_proc(2, 1) 0000106f.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+south_proc(11, 1) 00001002: sending 42 to collector(11, 11) 0000108e.
+south_proc(11, 2) 00001003: sending 37 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 144 to collector(11, 11) 0000108e.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(9, 9) 00001021: sending 23 to proc(10, 9) 00001017.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 7) 00001023: sending 115 to proc(10, 7) 00001019.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 3) 00001027: sending 68 to proc(10, 3) 0000101d.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(9, 1) 00001029: sending 38 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 3) 00001031: sending 67 to proc(9, 3) 00001027.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(7, 8) 00001036: sending 90 to proc(8, 8) 0000102c.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 7) 00001037: sending 125 to proc(8, 7) 0000102d.
+center_proc(7, 2) 0000103c: sending 39 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 5) 00001043: sending 6 to proc(7, 5) 00001039.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 6 to proc(7, 4) 0000103a.
+center_proc(6, 1) 00001047: sending 40 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 10) 00001048: sending 12 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 8) 0000104a: sending 132 to proc(6, 8) 00001040.
+center_proc(5, 6) 0000104c: sending 5 to proc(6, 6) 00001042.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 4) 00001058: sending 11 to proc(5, 4) 0000104e.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(3, 9) 0000105d: sending 9 to proc(3, 10) 0000105c.
+center_proc(3, 7) 0000105f: sending 15 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 5) 00001061: sending 10 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 7 to proc(3, 6) 00001060.
+center_proc(3, 1) 00001065: sending 5 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(2, 8) 00001068: sending 12 to proc(3, 8) 0000105e.
+center_proc(2, 4) 0000106c: sending 5 to proc(2, 5) 0000106b.
+center_proc(2, 2) 0000106e: sending 10 to proc(3, 2) 00001064.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(1, 6) 00001074: sending 4 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 4 to proc(1, 7) 00001073.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 2) 00001078: sending 5 to proc(2, 2) 0000106e.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(5, 11) 00001010: nothing to do.
+center_proc(10, 9) 00001017: sending 24 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 3) 0000101d: sending 69 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 1) 0000101f: sending 39 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(9, 3) 00001027: sending 68 to proc(10, 3) 0000101d.
+center_proc(8, 8) 0000102c: sending 132 to proc(9, 8) 00001022.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 160 to proc(9, 7) 00001023.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 2) 00001032: sending 46 to proc(9, 2) 00001028.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 1) 0000103d: sending 44 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(6, 10) 0000103e: sending 13 to proc(7, 10) 00001034.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 9) 0000103f: sending 13 to proc(7, 9) 00001035.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 3) 00001045: sending 56 to proc(7, 3) 0000103b.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 5) 0000104d: sending 5 to proc(6, 5) 00001043.
+center_proc(5, 2) 00001050: sending 48 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 10) 00001052: sending 11 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 9) 00001053: sending 21 to proc(5, 9) 00001049.
+center_proc(4, 8) 00001054: sending 24 to proc(5, 8) 0000104a.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 6) 00001056: sending 4 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 3) 00001059: sending 64 to proc(5, 3) 0000104f.
+center_proc(3, 6) 00001060: sending 10 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 7 to proc(3, 7) 0000105f.
+center_proc(3, 4) 00001062: sending 10 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(3, 2) 00001064: sending 9 to proc(3, 3) 00001063.
+center_proc(2, 10) 00001066: sending 8 to proc(2, 11) 0000100d.
+center_proc(2, 9) 00001067: sending 1 to proc(2, 10) 00001066.
+center_proc(2, 8) 00001068: sending 1 to proc(2, 9) 00001067.
+center_proc(2, 7) 00001069: sending 15 to proc(3, 7) 0000105f.
+center_proc(2, 5) 0000106b: sending 9 to proc(3, 5) 00001061.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(1, 7) 00001073: sending 20 to proc(2, 7) 00001069.
+center_proc(1, 4) 00001076: sending 3 to proc(1, 5) 00001075.
+west_proc(2, 0) 00001085: return successfully.
+south_proc(11, 1) 00001002: sending 39 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 69 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 24 to collector(11, 11) 0000108e.
+east_proc(2, 11) 0000100d: nothing to do.
+east_proc(4, 11) 0000100f: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(9, 8) 00001022: sending 138 to proc(10, 8) 00001018.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 2) 00001028: sending 47 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 4) 00001030: sending 15 to proc(9, 4) 00001026.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 1) 00001033: sending 58 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 10) 00001034: sending 15 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 15 to proc(8, 9) 0000102b.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 5) 00001039: sending 8 to proc(8, 5) 0000102f.
+center_proc(6, 8) 00001040: sending 138 to proc(7, 8) 00001036.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 6) 00001042: sending 6 to proc(7, 6) 00001038.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(6, 2) 00001046: sending 53 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 10) 00001048: sending 12 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 7) 0000104b: sending 25 to proc(6, 7) 00001041.
+center_proc(5, 4) 0000104e: sending 12 to proc(6, 4) 00001044.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 7) 00001055: sending 20 to proc(5, 7) 0000104b.
+center_proc(4, 5) 00001057: sending 11 to proc(5, 5) 0000104d.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 65 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 10) 0000105c: sending 20 to proc(4, 10) 00001052.
+center_proc(3, 9) 0000105d: sending 3 to proc(4, 9) 00001053.
+center_proc(3, 8) 0000105e: sending 18 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 3) 00001063: sending 110 to proc(4, 3) 00001059.
+center_proc(2, 7) 00001069: sending 2 to proc(2, 8) 00001068.
+center_proc(2, 5) 0000106b: sending 5 to proc(2, 6) 0000106a.
+center_proc(2, 4) 0000106c: sending 11 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 8 to proc(2, 5) 0000106b.
+center_proc(2, 2) 0000106e: sending 1 to proc(2, 3) 0000106d.
+center_proc(2, 1) 0000106f: sending 3 to proc(3, 1) 00001065.
+center_proc(2, 1) 0000106f: sending 1 to proc(2, 2) 0000106e.
+center_proc(2, 1) 0000106f: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(10, 2) 0000101e: sending 48 to proc(11, 2) 00001003.
+center_proc(9, 4) 00001026: sending 16 to proc(10, 4) 0000101c.
+center_proc(9, 1) 00001029: sending 59 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 10) 0000102a: sending 22 to proc(9, 10) 00001020.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 22 to proc(9, 9) 00001021.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(7, 8) 00001036: sending 150 to proc(8, 8) 0000102c.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 8 to proc(8, 4) 00001030.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 70 to proc(8, 3) 00001031.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(7, 2) 0000103c: sending 63 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 10) 0000103e: sending 13 to proc(7, 10) 00001034.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(5, 9) 00001049: sending 22 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 65 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(5, 2) 00001050: sending 66 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 4) 00001058: sending 11 to proc(5, 4) 0000104e.
+center_proc(3, 10) 0000105c: sending 9 to proc(3, 11) 0000100e.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 5) 00001061: sending 10 to proc(4, 5) 00001057.
+center_proc(3, 3) 00001063: sending 9 to proc(3, 4) 00001062.
+center_proc(3, 2) 00001064: sending 11 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(2, 8) 00001068: sending 18 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 2 to proc(2, 9) 00001067.
+center_proc(2, 6) 0000106a: sending 9 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 5 to proc(2, 7) 00001069.
+center_proc(2, 3) 0000106d: sending 13 to proc(3, 3) 00001063.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 2) 00001078: sending 1 to proc(1, 3) 00001077.
+center_proc(1, 2) 00001078: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(10, 1) 0000101f: sending 60 to proc(11, 1) 00001002.
+center_proc(9, 10) 00001020: sending 23 to proc(10, 10) 00001016.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 23 to proc(10, 9) 00001017.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(8, 5) 0000102f: sending 15 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: sending 15 to proc(9, 4) 00001026.
+center_proc(8, 3) 00001031: sending 98 to proc(9, 3) 00001027.
+center_proc(8, 2) 00001032: sending 70 to proc(9, 2) 00001028.
+center_proc(7, 10) 00001034: sending 15 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 6) 00001038: sending 8 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(6, 9) 0000103f: sending 23 to proc(7, 9) 00001035.
+center_proc(6, 7) 00001041: sending 30 to proc(7, 7) 00001037.
+center_proc(6, 5) 00001043: sending 6 to proc(7, 5) 00001039.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 13 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 3) 00001045: sending 71 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(6, 2) 00001046: sending 71 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(5, 8) 0000104a: sending 30 to proc(6, 8) 00001040.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 6) 0000104c: sending 5 to proc(6, 6) 00001042.
+center_proc(4, 10) 00001052: sending 21 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 9) 00001053: sending 4 to proc(5, 9) 00001049.
+center_proc(4, 8) 00001054: sending 24 to proc(5, 8) 0000104a.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 3) 00001059: sending 111 to proc(5, 3) 0000104f.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(3, 7) 0000105f: sending 50 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 7 to proc(3, 8) 0000105e.
+center_proc(3, 4) 00001062: sending 20 to proc(4, 4) 00001058.
+center_proc(2, 10) 00001066: sending 2 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 1 to proc(2, 11) 0000100d.
+center_proc(2, 3) 0000106d: sending 1 to proc(2, 4) 0000106c.
+center_proc(2, 2) 0000106e: sending 10 to proc(3, 2) 00001064.
+center_proc(2, 2) 0000106e: sending 1 to proc(2, 3) 0000106d.
+center_proc(2, 2) 0000106e: return successfully.
+east_proc(2, 11) 0000100d: nothing to do.
+east_proc(4, 11) 0000100f: nothing to do.
+east_proc(7, 11) 00001012: nothing to do.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 24 to proc(11, 10) 0000100b.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(8, 10) 0000102a: sending 22 to proc(9, 10) 00001020.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 8) 0000102c: sending 192 to proc(9, 8) 00001022.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(7, 5) 00001039: sending 8 to proc(8, 5) 0000102f.
+center_proc(7, 4) 0000103a: sending 15 to proc(8, 4) 00001030.
+center_proc(7, 3) 0000103b: sending 85 to proc(8, 3) 00001031.
+center_proc(7, 2) 0000103c: sending 81 to proc(8, 2) 00001032.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(5, 10) 00001048: sending 22 to proc(6, 10) 0000103e.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 5) 0000104d: sending 12 to proc(6, 5) 00001043.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: sending 12 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 112 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 6) 00001056: sending 11 to proc(5, 6) 0000104c.
+center_proc(3, 10) 0000105c: sending 3 to proc(4, 10) 00001052.
+center_proc(3, 8) 0000105e: sending 60 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 7 to proc(3, 9) 0000105d.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(3, 4) 00001062: sending 9 to proc(3, 5) 00001061.
+center_proc(3, 3) 00001063: sending 17 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+center_proc(1, 7) 00001073: sending 4 to proc(1, 8) 00001072.
+center_proc(1, 5) 00001075: sending 3 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 3 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+center_proc(1, 3) 00001077: sending 6 to proc(2, 3) 0000106d.
+center_proc(1, 3) 00001077: sending 1 to proc(1, 4) 00001076.
+center_proc(1, 3) 00001077: return successfully.
+south_proc(11, 10) 0000100b: sending 24 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 23 to proc(10, 10) 00001016.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(7, 9) 00001035: sending 25 to proc(8, 9) 0000102b.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 7) 00001037: sending 40 to proc(8, 7) 0000102d.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(6, 8) 00001040: sending 36 to proc(7, 8) 00001036.
+center_proc(6, 6) 00001042: sending 6 to proc(7, 6) 00001038.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 5) 00001043: sending 13 to proc(7, 5) 00001039.
+center_proc(6, 4) 00001044: sending 13 to proc(7, 4) 0000103a.
+center_proc(6, 3) 00001045: sending 118 to proc(7, 3) 0000103b.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 9) 00001049: sending 5 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 7) 0000104b: sending 25 to proc(6, 7) 00001041.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 5) 00001057: sending 11 to proc(5, 5) 0000104d.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 4) 00001058: sending 21 to proc(5, 4) 0000104e.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(3, 6) 00001060: sending 10 to proc(4, 6) 00001056.
+center_proc(2, 9) 00001067: sending 2 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 1 to proc(2, 10) 00001066.
+center_proc(2, 7) 00001069: sending 45 to proc(3, 7) 0000105f.
+center_proc(2, 7) 00001069: sending 5 to proc(2, 8) 00001068.
+center_proc(2, 5) 0000106b: sending 11 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 8 to proc(2, 6) 0000106a.
+center_proc(2, 4) 0000106c: sending 2 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 1 to proc(2, 5) 0000106b.
+center_proc(2, 3) 0000106d: sending 13 to proc(3, 3) 00001063.
+center_proc(2, 3) 0000106d: sending 1 to proc(2, 4) 0000106c.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+center_proc(1, 8) 00001072: sending 24 to proc(2, 8) 00001068.
+center_proc(1, 6) 00001074: sending 3 to proc(2, 6) 0000106a.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+center_proc(1, 4) 00001076: sending 1 to proc(2, 4) 0000106c.
+west_proc(3, 0) 00001086: sending 1 to center_proc(3, 1) 00001065.
+west_proc(3, 0) 00001086: return successfully.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(5, 11) 00001010: nothing to do.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(8, 9) 0000102b: sending 32 to proc(9, 9) 00001021.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(6, 10) 0000103e: sending 23 to proc(7, 10) 00001034.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 6) 0000104c: sending 12 to proc(6, 6) 00001042.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 5) 0000104d: sending 12 to proc(6, 5) 00001043.
+center_proc(5, 4) 0000104e: sending 22 to proc(6, 4) 00001044.
+center_proc(4, 10) 00001052: sending 4 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 7) 00001055: sending 55 to proc(5, 7) 0000104b.
+center_proc(3, 9) 0000105d: sending 3 to proc(4, 9) 00001053.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 5) 00001061: sending 20 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 9 to proc(3, 6) 00001060.
+center_proc(3, 4) 00001062: sending 3 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(3, 1) 00001065: sending 5 to proc(4, 1) 0000105b.
+center_proc(3, 1) 00001065: sending 1 to proc(3, 2) 00001064.
+center_proc(3, 1) 00001065: return successfully.
+east_proc(4, 11) 0000100f: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(7, 10) 00001034: sending 25 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 8) 00001036: sending 48 to proc(8, 8) 0000102c.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(6, 9) 0000103f: sending 6 to proc(7, 9) 00001035.
+center_proc(6, 7) 00001041: sending 30 to proc(7, 7) 00001037.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(5, 10) 00001048: sending 5 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 8) 0000104a: sending 30 to proc(6, 8) 00001040.
+center_proc(4, 9) 00001053: sending 4 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 6) 00001056: sending 11 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 5) 00001057: sending 21 to proc(5, 5) 0000104d.
+center_proc(3, 7) 0000105f: sending 50 to proc(4, 7) 00001055.
+center_proc(3, 2) 00001064: sending 11 to proc(4, 2) 0000105a.
+center_proc(3, 2) 00001064: sending 1 to proc(3, 3) 00001063.
+center_proc(3, 2) 00001064: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(8, 10) 0000102a: sending 32 to proc(9, 10) 00001020.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 7) 0000104b: sending 60 to proc(6, 7) 00001041.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(4, 8) 00001054: sending 66 to proc(5, 8) 0000104a.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 3) 00001063: sending 17 to proc(4, 3) 00001059.
+center_proc(3, 3) 00001063: sending 1 to proc(3, 4) 00001062.
+center_proc(3, 3) 00001063: return successfully.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(7, 9) 00001035: sending 8 to proc(8, 9) 0000102b.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(6, 10) 0000103e: sending 6 to proc(7, 10) 00001034.
+center_proc(6, 8) 00001040: sending 36 to proc(7, 8) 00001036.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 5 to proc(6, 9) 0000103f.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 7) 00001055: sending 55 to proc(5, 7) 0000104b.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(2, 9) 00001067: sending 3 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 2 to proc(2, 10) 00001066.
+center_proc(2, 3) 0000106d: return successfully.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 8) 0000104a: sending 72 to proc(6, 8) 00001040.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(3, 9) 0000105d: sending 10 to proc(4, 9) 00001053.
+center_proc(2, 5) 0000106b: sending 2 to proc(3, 5) 00001061.
+center_proc(2, 5) 0000106b: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 8) 00001072: sending 4 to proc(1, 9) 00001071.
+center_proc(1, 4) 00001076: sending 1 to proc(1, 5) 00001075.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(7, 10) 00001034: sending 8 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(6, 9) 0000103f: sending 6 to proc(7, 9) 00001035.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(4, 1) 0000105b: sending 6 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(3, 9) 0000105d: sending 7 to proc(3, 10) 0000105c.
+center_proc(3, 5) 00001061: sending 3 to proc(4, 5) 00001057.
+center_proc(2, 10) 00001066: sending 2 to proc(3, 10) 0000105c.
+center_proc(2, 8) 00001068: sending 54 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 5 to proc(2, 9) 00001067.
+center_proc(2, 4) 0000106c: sending 2 to proc(3, 4) 00001062.
+center_proc(2, 4) 0000106c: sending 1 to proc(2, 5) 0000106b.
+center_proc(2, 4) 0000106c: return successfully.
+south_proc(11, 1) 00001002: sending 60 to collector(11, 11) 0000108e.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(5, 1) 00001051: sending 7 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(4, 9) 00001053: sending 11 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 2) 0000105a: sending 12 to proc(5, 2) 00001050.
+center_proc(3, 8) 0000105e: sending 60 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 4) 00001062: sending 3 to proc(4, 4) 00001058.
+center_proc(3, 4) 00001062: sending 1 to proc(3, 5) 00001061.
+center_proc(2, 10) 00001066: sending 1 to proc(2, 11) 0000100d.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 9) 00001071: sending 4 to proc(2, 9) 00001067.
+center_proc(1, 9) 00001071: sending 4 to proc(1, 10) 00001070.
+center_proc(1, 6) 00001074: sending 3 to proc(1, 7) 00001073.
+center_proc(1, 4) 00001076: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(2, 11) 0000100d: nothing to do.
+center_proc(6, 1) 00001047: sending 8 to proc(7, 1) 0000103d.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(5, 9) 00001049: sending 12 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(4, 8) 00001054: sending 66 to proc(5, 8) 0000104a.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(3, 10) 0000105c: sending 3 to proc(4, 10) 00001052.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(2, 10) 00001066: sending 3 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 2 to proc(2, 11) 0000100d.
+center_proc(2, 9) 00001067: sending 9 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 5 to proc(2, 10) 00001066.
+center_proc(2, 6) 0000106a: sending 11 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 8 to proc(2, 7) 00001069.
+center_proc(1, 10) 00001070: sending 4 to proc(2, 10) 00001066.
+center_proc(1, 7) 00001073: sending 15 to proc(2, 7) 00001069.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+center_proc(1, 5) 00001075: sending 1 to proc(2, 5) 0000106b.
+center_proc(1, 5) 00001075: sending 1 to proc(1, 6) 00001074.
+west_proc(4, 0) 00001087: sending 1 to center_proc(4, 1) 0000105b.
+west_proc(4, 0) 00001087: return successfully.
+east_proc(2, 11) 0000100d: nothing to do.
+east_proc(3, 11) 0000100e: nothing to do.
+center_proc(7, 1) 0000103d: sending 12 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(5, 2) 00001050: sending 13 to proc(6, 2) 00001046.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+center_proc(4, 10) 00001052: sending 4 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 3) 00001059: sending 18 to proc(5, 3) 0000104f.
+center_proc(4, 1) 0000105b: sending 6 to proc(5, 1) 00001051.
+center_proc(4, 1) 0000105b: sending 1 to proc(4, 2) 0000105a.
+center_proc(4, 1) 0000105b: return successfully.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(8, 1) 00001033: sending 26 to proc(9, 1) 00001029.
+center_proc(6, 2) 00001046: sending 18 to proc(7, 2) 0000103c.
+center_proc(5, 10) 00001048: sending 5 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 2) 0000105a: sending 12 to proc(5, 2) 00001050.
+center_proc(4, 2) 0000105a: sending 1 to proc(4, 3) 00001059.
+center_proc(4, 2) 0000105a: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+center_proc(6, 10) 0000103e: sending 6 to proc(7, 10) 00001034.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(5, 3) 0000104f: sending 19 to proc(6, 3) 00001045.
+center_proc(4, 4) 00001058: sending 4 to proc(5, 4) 0000104e.
+center_proc(4, 3) 00001059: sending 18 to proc(5, 3) 0000104f.
+center_proc(3, 10) 0000105c: sending 10 to proc(4, 10) 00001052.
+center_proc(3, 10) 0000105c: sending 7 to proc(3, 11) 0000100e.
+center_proc(3, 9) 0000105d: sending 10 to proc(4, 9) 00001053.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 6) 00001060: sending 20 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 9 to proc(3, 7) 0000105f.
+center_proc(2, 6) 0000106a: sending 2 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 1 to proc(2, 7) 00001069.
+center_proc(2, 5) 0000106b: sending 2 to proc(3, 5) 00001061.
+center_proc(1, 10) 00001070: sending 4 to proc(1, 11) 0000100c.
+west_proc(5, 0) 00001088: sending 1 to center_proc(5, 1) 00001051.
+west_proc(5, 0) 00001088: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(5, 1) 00001051: sending 7 to proc(6, 1) 00001047.
+center_proc(5, 1) 00001051: sending 1 to proc(5, 2) 00001050.
+center_proc(5, 1) 00001051: return successfully.
+center_proc(5, 2) 00001050: sending 13 to proc(6, 2) 00001046.
+center_proc(4, 10) 00001052: sending 11 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 9) 00001053: sending 11 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(2, 10) 00001066: sending 9 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 5 to proc(2, 11) 0000100d.
+center_proc(1, 7) 00001073: sending 3 to proc(1, 8) 00001072.
+center_proc(1, 5) 00001075: return successfully.
+east_proc(2, 11) 0000100d: nothing to do.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(5, 10) 00001048: sending 12 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(3, 10) 0000105c: sending 10 to proc(4, 10) 00001052.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(2, 7) 00001069: sending 55 to proc(3, 7) 0000105f.
+center_proc(2, 7) 00001069: sending 8 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 18 to proc(2, 8) 00001068.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(1, 6) 00001074: sending 1 to proc(2, 6) 0000106a.
+center_proc(1, 6) 00001074: sending 1 to proc(1, 7) 00001073.
+west_proc(6, 0) 00001089: sending 1 to center_proc(6, 1) 00001047.
+west_proc(6, 0) 00001089: return successfully.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(5, 11) 00001010: nothing to do.
+center_proc(6, 1) 00001047: sending 8 to proc(7, 1) 0000103d.
+center_proc(4, 10) 00001052: sending 11 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(3, 7) 0000105f: sending 100 to proc(4, 7) 00001055.
+center_proc(3, 7) 0000105f: sending 9 to proc(3, 8) 0000105e.
+center_proc(2, 7) 00001069: sending 10 to proc(3, 7) 0000105f.
+center_proc(2, 7) 00001069: sending 1 to proc(2, 8) 00001068.
+west_proc(7, 0) 0000108a: sending 2 to center_proc(7, 1) 0000103d.
+west_proc(8, 0) 0000108b: sending 7 to center_proc(8, 1) 00001033.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(1, 8) 00001072: sending 3 to proc(1, 9) 00001071.
+center_proc(1, 6) 00001074: return successfully.
+center_proc(2, 8) 00001068: sending 66 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 8 to proc(2, 9) 00001067.
+center_proc(1, 9) 00001071: sending 3 to proc(2, 9) 00001067.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 7) 00001073: sending 5 to proc(2, 7) 00001069.
+center_proc(1, 7) 00001073: sending 1 to proc(1, 8) 00001072.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(3, 8) 0000105e: sending 120 to proc(4, 8) 00001054.
+center_proc(3, 8) 0000105e: sending 9 to proc(3, 9) 0000105d.
+center_proc(1, 9) 00001071: sending 3 to proc(1, 10) 00001070.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(1, 7) 00001073: return successfully.
+south_proc(11, 2) 00001003: sending 48 to collector(11, 11) 0000108e.
+center_proc(2, 9) 00001067: sending 11 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 8 to proc(2, 10) 00001066.
+center_proc(2, 8) 00001068: sending 12 to proc(3, 8) 0000105e.
+center_proc(2, 8) 00001068: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 10) 00001070: sending 3 to proc(2, 10) 00001066.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 8) 00001072: sending 6 to proc(2, 8) 00001068.
+center_proc(1, 8) 00001072: sending 1 to proc(1, 9) 00001071.
+center_proc(3, 9) 0000105d: sending 20 to proc(4, 9) 00001053.
+center_proc(3, 9) 0000105d: sending 9 to proc(3, 10) 0000105c.
+center_proc(1, 10) 00001070: sending 3 to proc(1, 11) 0000100c.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+center_proc(1, 8) 00001072: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+center_proc(2, 10) 00001066: sending 11 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 8 to proc(2, 11) 0000100d.
+center_proc(2, 9) 00001067: sending 2 to proc(3, 9) 0000105d.
+center_proc(2, 9) 00001067: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 9) 00001071: sending 1 to proc(2, 9) 00001067.
+center_proc(1, 9) 00001071: sending 1 to proc(1, 10) 00001070.
+east_proc(2, 11) 0000100d: nothing to do.
+center_proc(3, 10) 0000105c: sending 20 to proc(4, 10) 00001052.
+center_proc(3, 10) 0000105c: sending 9 to proc(3, 11) 0000100e.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 9) 00001071: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(3, 11) 0000100e: nothing to do.
+center_proc(2, 10) 00001066: sending 2 to proc(3, 10) 0000105c.
+center_proc(2, 10) 00001066: sending 1 to proc(2, 11) 0000100d.
+center_proc(1, 10) 00001070: sending 1 to proc(2, 10) 00001066.
+center_proc(1, 10) 00001070: sending 1 to proc(1, 11) 0000100c.
+center_proc(1, 10) 00001070: return successfully.
+east_proc(1, 11) 0000100c: nothing to do.
+east_proc(1, 11) 0000100c: return successfully.
+east_proc(2, 11) 0000100d: nothing to do.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+south_proc(11, 4) 00001005: sending 34 to collector(11, 11) 0000108e.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+south_proc(11, 5) 00001006: sending 24 to collector(11, 11) 0000108e.
+center_proc(10, 6) 0000101a: sending 24 to proc(11, 6) 00001007.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 34 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(10, 4) 0000101c: sending 17 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 3) 0000101d: sending 69 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(9, 6) 00001024: sending 33 to proc(10, 6) 0000101a.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+west_proc(8, 0) 0000108b: return successfully.
+south_proc(11, 3) 00001004: sending 69 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 5) 00001006: sending 34 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 24 to collector(11, 11) 0000108e.
+center_proc(10, 7) 00001019: sending 120 to proc(11, 7) 00001008.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 16 to proc(10, 5) 0000101b.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 16 to proc(10, 4) 0000101c.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 99 to proc(10, 3) 0000101d.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(9, 2) 00001028: sending 71 to proc(10, 2) 0000101e.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 6) 0000102e: sending 15 to proc(9, 6) 00001024.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 1) 00001047: sending 1 to proc(6, 2) 00001046.
+center_proc(10, 6) 0000101a: sending 34 to proc(11, 6) 00001007.
+center_proc(10, 5) 0000101b: sending 17 to proc(11, 5) 00001006.
+center_proc(10, 4) 0000101c: sending 17 to proc(11, 4) 00001005.
+center_proc(10, 3) 0000101d: sending 100 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 2) 0000101e: sending 72 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 7) 00001023: sending 165 to proc(10, 7) 00001019.
+center_proc(9, 1) 00001029: sending 27 to proc(10, 1) 0000101f.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 15 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: sending 22 to proc(9, 4) 00001026.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 113 to proc(9, 3) 00001027.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 2) 00001032: sending 88 to proc(9, 2) 00001028.
+center_proc(7, 6) 00001038: sending 8 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(6, 1) 00001047: return successfully.
+south_proc(11, 2) 00001003: sending 72 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 100 to collector(11, 11) 0000108e.
+center_proc(10, 1) 0000101f: sending 28 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(9, 6) 00001024: sending 16 to proc(10, 6) 0000101a.
+center_proc(9, 4) 00001026: sending 23 to proc(10, 4) 0000101c.
+center_proc(9, 3) 00001027: sending 114 to proc(10, 3) 0000101d.
+center_proc(8, 7) 0000102d: sending 75 to proc(9, 7) 00001023.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(7, 7) 00001037: sending 40 to proc(8, 7) 0000102d.
+center_proc(7, 5) 00001039: sending 15 to proc(8, 5) 0000102f.
+center_proc(7, 4) 0000103a: sending 15 to proc(8, 4) 00001030.
+center_proc(7, 3) 0000103b: sending 132 to proc(8, 3) 00001031.
+center_proc(7, 2) 0000103c: sending 28 to proc(8, 2) 00001032.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 6) 00001042: sending 13 to proc(7, 6) 00001038.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(5, 2) 00001050: sending 1 to proc(5, 3) 0000104f.
+west_proc(7, 0) 0000108a: return successfully.
+south_proc(11, 1) 00001002: sending 28 to collector(11, 11) 0000108e.
+center_proc(9, 5) 00001025: sending 16 to proc(10, 5) 0000101b.
+center_proc(9, 2) 00001028: sending 89 to proc(10, 2) 0000101e.
+center_proc(8, 6) 0000102e: sending 15 to proc(9, 6) 00001024.
+center_proc(8, 2) 00001032: sending 35 to proc(9, 2) 00001028.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(7, 1) 0000103d: sending 12 to proc(8, 1) 00001033.
+center_proc(7, 1) 0000103d: sending 2 to proc(7, 2) 0000103c.
+center_proc(7, 1) 0000103d: return successfully.
+center_proc(8, 5) 0000102f: sending 22 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: sending 22 to proc(9, 4) 00001026.
+center_proc(8, 3) 00001031: sending 160 to proc(9, 3) 00001027.
+center_proc(8, 1) 00001033: sending 26 to proc(9, 1) 00001029.
+center_proc(8, 1) 00001033: sending 7 to proc(8, 2) 00001032.
+center_proc(7, 6) 00001038: sending 15 to proc(8, 6) 0000102e.
+center_proc(6, 7) 00001041: sending 65 to proc(7, 7) 00001037.
+center_proc(6, 5) 00001043: sending 13 to proc(7, 5) 00001039.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 23 to proc(7, 4) 0000103a.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 3) 00001045: sending 25 to proc(7, 3) 0000103b.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(6, 2) 00001046: sending 18 to proc(7, 2) 0000103c.
+center_proc(6, 2) 00001046: sending 1 to proc(6, 3) 00001045.
+center_proc(6, 2) 00001046: return successfully.
+center_proc(7, 5) 00001039: sending 15 to proc(8, 5) 0000102f.
+center_proc(7, 4) 0000103a: sending 25 to proc(8, 4) 00001030.
+center_proc(7, 3) 0000103b: sending 39 to proc(8, 3) 00001031.
+center_proc(7, 2) 0000103c: sending 28 to proc(8, 2) 00001032.
+center_proc(5, 2) 00001050: return successfully.
+center_proc(5, 6) 0000104c: sending 12 to proc(6, 6) 00001042.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 3) 00001059: sending 1 to proc(4, 4) 00001058.
+center_proc(4, 3) 00001059: return successfully.
+center_proc(6, 6) 00001042: sending 13 to proc(7, 6) 00001038.
+center_proc(5, 7) 0000104b: sending 60 to proc(6, 7) 00001041.
+center_proc(5, 5) 0000104d: sending 22 to proc(6, 5) 00001043.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: sending 5 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+center_proc(5, 3) 0000104f: sending 19 to proc(6, 3) 00001045.
+center_proc(5, 3) 0000104f: sending 1 to proc(5, 4) 0000104e.
+center_proc(5, 3) 0000104f: return successfully.
+center_proc(6, 5) 00001043: sending 23 to proc(7, 5) 00001039.
+center_proc(6, 4) 00001044: sending 6 to proc(7, 4) 0000103a.
+center_proc(6, 3) 00001045: sending 25 to proc(7, 3) 0000103b.
+center_proc(4, 6) 00001056: sending 21 to proc(5, 6) 0000104c.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 4) 00001058: sending 4 to proc(5, 4) 0000104e.
+center_proc(4, 4) 00001058: sending 1 to proc(4, 5) 00001057.
+center_proc(4, 4) 00001058: return successfully.
+center_proc(5, 6) 0000104c: sending 22 to proc(6, 6) 00001042.
+center_proc(5, 4) 0000104e: sending 5 to proc(6, 4) 00001044.
+center_proc(4, 7) 00001055: sending 105 to proc(5, 7) 0000104b.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(3, 4) 00001062: return successfully.
+center_proc(4, 5) 00001057: sending 4 to proc(5, 5) 0000104d.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(3, 6) 00001060: sending 3 to proc(4, 6) 00001056.
+center_proc(2, 5) 0000106b: sending 1 to proc(2, 6) 0000106a.
+center_proc(2, 5) 0000106b: return successfully.
+center_proc(5, 5) 0000104d: sending 5 to proc(6, 5) 00001043.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 5) 00001061: sending 3 to proc(4, 5) 00001057.
+center_proc(3, 5) 00001061: sending 1 to proc(3, 6) 00001060.
+center_proc(3, 5) 00001061: return successfully.
+center_proc(4, 6) 00001056: sending 4 to proc(5, 6) 0000104c.
+center_proc(4, 5) 00001057: sending 4 to proc(5, 5) 0000104d.
+center_proc(3, 7) 0000105f: sending 15 to proc(4, 7) 00001055.
+center_proc(2, 6) 0000106a: sending 2 to proc(3, 6) 00001060.
+center_proc(2, 6) 0000106a: sending 1 to proc(2, 7) 00001069.
+center_proc(2, 6) 0000106a: return successfully.
+center_proc(3, 6) 00001060: sending 3 to proc(4, 6) 00001056.
+center_proc(2, 7) 00001069: sending 10 to proc(3, 7) 0000105f.
+west_proc(9, 0) 0000108c: sending 1 to center_proc(9, 1) 00001029.
+west_proc(9, 0) 0000108c: return successfully.
+center_proc(9, 1) 00001029: sending 27 to proc(10, 1) 0000101f.
+west_proc(10, 0) 0000108d: sending 1 to center_proc(10, 1) 0000101f.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+south_proc(11, 4) 00001005: sending 17 to collector(11, 11) 0000108e.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+south_proc(11, 5) 00001006: sending 17 to collector(11, 11) 0000108e.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+south_proc(11, 6) 00001007: sending 34 to collector(11, 11) 0000108e.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(9, 1) 00001029: sending 1 to proc(9, 2) 00001028.
+south_proc(11, 7) 00001008: sending 120 to collector(11, 11) 0000108e.
+center_proc(10, 8) 00001018: sending 144 to proc(11, 8) 00001009.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(9, 1) 00001029: return successfully.
+center_proc(10, 7) 00001019: sending 170 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 17 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 17 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(10, 4) 0000101c: sending 24 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 3) 0000101d: sending 115 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 2) 0000101e: sending 90 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 8) 00001022: sending 198 to proc(10, 8) 00001018.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(8, 1) 00001033: return successfully.
+south_proc(11, 2) 00001003: sending 90 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 115 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 5) 00001006: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 170 to collector(11, 11) 0000108e.
+center_proc(9, 7) 00001023: sending 80 to proc(10, 7) 00001019.
+center_proc(9, 6) 00001024: sending 16 to proc(10, 6) 0000101a.
+center_proc(9, 5) 00001025: sending 23 to proc(10, 5) 0000101b.
+center_proc(9, 4) 00001026: sending 23 to proc(10, 4) 0000101c.
+center_proc(9, 3) 00001027: sending 161 to proc(10, 3) 0000101d.
+center_proc(9, 2) 00001028: sending 36 to proc(10, 2) 0000101e.
+center_proc(8, 8) 0000102c: sending 90 to proc(9, 8) 00001022.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(7, 2) 0000103c: sending 2 to proc(7, 3) 0000103b.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+west_proc(10, 0) 0000108d: return successfully.
+center_proc(10, 1) 0000101f: sending 28 to proc(11, 1) 00001002.
+center_proc(10, 1) 0000101f: sending 1 to proc(10, 2) 0000101e.
+center_proc(8, 7) 0000102d: sending 75 to proc(9, 7) 00001023.
+center_proc(8, 6) 0000102e: sending 22 to proc(9, 6) 00001024.
+center_proc(8, 5) 0000102f: sending 22 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: sending 32 to proc(9, 4) 00001026.
+center_proc(8, 3) 00001031: sending 67 to proc(9, 3) 00001027.
+center_proc(8, 2) 00001032: sending 35 to proc(9, 2) 00001028.
+center_proc(7, 8) 00001036: sending 48 to proc(8, 8) 0000102c.
+center_proc(7, 2) 0000103c: return successfully.
+south_proc(11, 1) 00001002: sending 28 to collector(11, 11) 0000108e.
+center_proc(7, 4) 0000103a: sending 8 to proc(8, 4) 00001030.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 3) 00001045: sending 1 to proc(6, 4) 00001044.
+center_proc(5, 4) 0000104e: sending 1 to proc(5, 5) 0000104d.
+south_proc(11, 1) 00001002: return successfully.
+center_proc(7, 7) 00001037: sending 75 to proc(8, 7) 0000102d.
+center_proc(7, 6) 00001038: sending 15 to proc(8, 6) 0000102e.
+center_proc(7, 5) 00001039: sending 25 to proc(8, 5) 0000102f.
+center_proc(7, 3) 0000103b: sending 39 to proc(8, 3) 00001031.
+center_proc(6, 8) 00001040: sending 78 to proc(7, 8) 00001036.
+center_proc(6, 3) 00001045: return successfully.
+center_proc(6, 4) 00001044: sending 6 to proc(7, 4) 0000103a.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 4) 0000104e: return successfully.
+center_proc(6, 7) 00001041: sending 65 to proc(7, 7) 00001037.
+center_proc(6, 6) 00001042: sending 23 to proc(7, 6) 00001038.
+center_proc(6, 5) 00001043: sending 6 to proc(7, 5) 00001039.
+center_proc(5, 8) 0000104a: sending 72 to proc(6, 8) 00001040.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 5) 00001057: sending 1 to proc(4, 6) 00001056.
+center_proc(4, 5) 00001057: return successfully.
+center_proc(5, 7) 0000104b: sending 110 to proc(6, 7) 00001041.
+center_proc(5, 6) 0000104c: sending 5 to proc(6, 6) 00001042.
+center_proc(5, 5) 0000104d: sending 5 to proc(6, 5) 00001043.
+center_proc(4, 8) 00001054: sending 126 to proc(5, 8) 0000104a.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 6) 00001060: sending 1 to proc(3, 7) 0000105f.
+center_proc(3, 6) 00001060: return successfully.
+center_proc(4, 7) 00001055: sending 20 to proc(5, 7) 0000104b.
+center_proc(4, 6) 00001056: sending 4 to proc(5, 6) 0000104c.
+center_proc(3, 8) 0000105e: sending 18 to proc(4, 8) 00001054.
+center_proc(2, 7) 00001069: sending 1 to proc(2, 8) 00001068.
+center_proc(2, 7) 00001069: return successfully.
+center_proc(3, 7) 0000105f: sending 15 to proc(4, 7) 00001055.
+center_proc(2, 8) 00001068: sending 12 to proc(3, 8) 0000105e.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 1) 0000101f: return successfully.
+south_proc(11, 8) 00001009: sending 144 to collector(11, 11) 0000108e.
+center_proc(10, 9) 00001017: sending 24 to proc(11, 9) 0000100a.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+center_proc(8, 2) 00001032: sending 7 to proc(8, 3) 00001031.
+center_proc(10, 8) 00001018: sending 204 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 85 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 17 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 24 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(10, 4) 0000101c: sending 24 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 3) 0000101d: sending 162 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 2) 0000101e: sending 37 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(9, 9) 00001021: sending 33 to proc(10, 9) 00001017.
+center_proc(9, 2) 00001028: sending 36 to proc(10, 2) 0000101e.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(8, 2) 00001032: return successfully.
+south_proc(11, 2) 00001003: sending 37 to collector(11, 11) 0000108e.
+south_proc(11, 3) 00001004: sending 162 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 5) 00001006: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 85 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 204 to collector(11, 11) 0000108e.
+center_proc(9, 8) 00001022: sending 96 to proc(10, 8) 00001018.
+center_proc(9, 7) 00001023: sending 80 to proc(10, 7) 00001019.
+center_proc(9, 6) 00001024: sending 23 to proc(10, 6) 0000101a.
+center_proc(9, 5) 00001025: sending 23 to proc(10, 5) 0000101b.
+center_proc(9, 4) 00001026: sending 33 to proc(10, 4) 0000101c.
+center_proc(9, 3) 00001027: sending 68 to proc(10, 3) 0000101d.
+center_proc(8, 9) 0000102b: sending 15 to proc(9, 9) 00001021.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(7, 3) 0000103b: sending 2 to proc(7, 4) 0000103a.
+center_proc(7, 3) 0000103b: return successfully.
+center_proc(8, 8) 0000102c: sending 90 to proc(9, 8) 00001022.
+center_proc(8, 7) 0000102d: sending 110 to proc(9, 7) 00001023.
+center_proc(8, 6) 0000102e: sending 22 to proc(9, 6) 00001024.
+center_proc(8, 5) 0000102f: sending 32 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: sending 15 to proc(9, 4) 00001026.
+center_proc(8, 3) 00001031: sending 67 to proc(9, 3) 00001027.
+center_proc(7, 9) 00001035: sending 8 to proc(8, 9) 0000102b.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 4) 00001044: sending 1 to proc(6, 5) 00001043.
+center_proc(6, 4) 00001044: return successfully.
+center_proc(7, 8) 00001036: sending 90 to proc(8, 8) 0000102c.
+center_proc(7, 7) 00001037: sending 75 to proc(8, 7) 0000102d.
+center_proc(7, 6) 00001038: sending 25 to proc(8, 6) 0000102e.
+center_proc(7, 4) 0000103a: sending 8 to proc(8, 4) 00001030.
+center_proc(6, 9) 0000103f: sending 13 to proc(7, 9) 00001035.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 5) 0000104d: sending 1 to proc(5, 6) 0000104c.
+center_proc(5, 5) 0000104d: return successfully.
+center_proc(7, 5) 00001039: sending 8 to proc(8, 5) 0000102f.
+center_proc(6, 8) 00001040: sending 78 to proc(7, 8) 00001036.
+center_proc(6, 7) 00001041: sending 115 to proc(7, 7) 00001037.
+center_proc(6, 6) 00001042: sending 6 to proc(7, 6) 00001038.
+center_proc(6, 5) 00001043: sending 6 to proc(7, 5) 00001039.
+center_proc(5, 9) 00001049: sending 12 to proc(6, 9) 0000103f.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 6) 00001056: sending 1 to proc(4, 7) 00001055.
+center_proc(4, 6) 00001056: return successfully.
+center_proc(5, 8) 0000104a: sending 132 to proc(6, 8) 00001040.
+center_proc(5, 7) 0000104b: sending 25 to proc(6, 7) 00001041.
+center_proc(5, 6) 0000104c: sending 5 to proc(6, 6) 00001042.
+center_proc(4, 9) 00001053: sending 21 to proc(5, 9) 00001049.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 7) 0000105f: sending 1 to proc(3, 8) 0000105e.
+center_proc(3, 7) 0000105f: return successfully.
+center_proc(4, 8) 00001054: sending 24 to proc(5, 8) 0000104a.
+center_proc(4, 7) 00001055: sending 20 to proc(5, 7) 0000104b.
+center_proc(3, 9) 0000105d: sending 3 to proc(4, 9) 00001053.
+center_proc(2, 8) 00001068: sending 1 to proc(2, 9) 00001067.
+center_proc(2, 8) 00001068: return successfully.
+center_proc(3, 8) 0000105e: sending 18 to proc(4, 8) 00001054.
+center_proc(2, 9) 00001067: sending 2 to proc(3, 9) 0000105d.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(9, 2) 00001028: sending 1 to proc(9, 3) 00001027.
+south_proc(11, 9) 0000100a: sending 24 to collector(11, 11) 0000108e.
+center_proc(10, 10) 00001016: sending 24 to proc(11, 10) 0000100b.
+center_proc(10, 2) 0000101e: sending 37 to proc(11, 2) 00001003.
+center_proc(10, 2) 0000101e: sending 1 to proc(10, 3) 0000101d.
+center_proc(10, 2) 0000101e: return successfully.
+south_proc(11, 2) 00001003: sending 37 to collector(11, 11) 0000108e.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+south_proc(11, 2) 00001003: return successfully.
+center_proc(10, 9) 00001017: sending 34 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 8) 00001018: sending 102 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 85 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 24 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 24 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(10, 4) 0000101c: sending 34 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(10, 3) 0000101d: sending 69 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 2) 00001028: return successfully.
+south_proc(11, 3) 00001004: sending 69 to collector(11, 11) 0000108e.
+south_proc(11, 4) 00001005: sending 34 to collector(11, 11) 0000108e.
+south_proc(11, 5) 00001006: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 85 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 102 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 34 to collector(11, 11) 0000108e.
+center_proc(9, 10) 00001020: sending 33 to proc(10, 10) 00001016.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(8, 3) 00001031: sending 7 to proc(8, 4) 00001030.
+center_proc(7, 4) 0000103a: sending 2 to proc(7, 5) 00001039.
+center_proc(9, 9) 00001021: sending 16 to proc(10, 9) 00001017.
+center_proc(9, 8) 00001022: sending 96 to proc(10, 8) 00001018.
+center_proc(9, 7) 00001023: sending 115 to proc(10, 7) 00001019.
+center_proc(9, 6) 00001024: sending 23 to proc(10, 6) 0000101a.
+center_proc(9, 5) 00001025: sending 33 to proc(10, 5) 0000101b.
+center_proc(9, 4) 00001026: sending 16 to proc(10, 4) 0000101c.
+center_proc(9, 3) 00001027: sending 68 to proc(10, 3) 0000101d.
+center_proc(8, 10) 0000102a: sending 15 to proc(9, 10) 00001020.
+center_proc(8, 3) 00001031: return successfully.
+center_proc(8, 4) 00001030: sending 15 to proc(9, 4) 00001026.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(7, 4) 0000103a: return successfully.
+center_proc(8, 9) 0000102b: sending 15 to proc(9, 9) 00001021.
+center_proc(8, 8) 0000102c: sending 132 to proc(9, 8) 00001022.
+center_proc(8, 7) 0000102d: sending 110 to proc(9, 7) 00001023.
+center_proc(8, 6) 0000102e: sending 32 to proc(9, 6) 00001024.
+center_proc(8, 5) 0000102f: sending 15 to proc(9, 5) 00001025.
+center_proc(7, 10) 00001034: sending 8 to proc(8, 10) 0000102a.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 5) 00001043: sending 1 to proc(6, 6) 00001042.
+center_proc(6, 5) 00001043: return successfully.
+center_proc(7, 9) 00001035: sending 15 to proc(8, 9) 0000102b.
+center_proc(7, 8) 00001036: sending 90 to proc(8, 8) 0000102c.
+center_proc(7, 7) 00001037: sending 125 to proc(8, 7) 0000102d.
+center_proc(7, 6) 00001038: sending 8 to proc(8, 6) 0000102e.
+center_proc(7, 5) 00001039: sending 8 to proc(8, 5) 0000102f.
+center_proc(6, 10) 0000103e: sending 13 to proc(7, 10) 00001034.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 6) 0000104c: sending 1 to proc(5, 7) 0000104b.
+center_proc(5, 6) 0000104c: return successfully.
+center_proc(6, 9) 0000103f: sending 13 to proc(7, 9) 00001035.
+center_proc(6, 8) 00001040: sending 138 to proc(7, 8) 00001036.
+center_proc(6, 7) 00001041: sending 30 to proc(7, 7) 00001037.
+center_proc(6, 6) 00001042: sending 6 to proc(7, 6) 00001038.
+center_proc(5, 10) 00001048: sending 12 to proc(6, 10) 0000103e.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 7) 00001055: sending 1 to proc(4, 8) 00001054.
+center_proc(4, 7) 00001055: return successfully.
+center_proc(5, 9) 00001049: sending 22 to proc(6, 9) 0000103f.
+center_proc(5, 8) 0000104a: sending 30 to proc(6, 8) 00001040.
+center_proc(5, 7) 0000104b: sending 25 to proc(6, 7) 00001041.
+center_proc(4, 10) 00001052: sending 21 to proc(5, 10) 00001048.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 8) 0000105e: sending 1 to proc(3, 9) 0000105d.
+center_proc(3, 8) 0000105e: return successfully.
+center_proc(4, 9) 00001053: sending 4 to proc(5, 9) 00001049.
+center_proc(4, 8) 00001054: sending 24 to proc(5, 8) 0000104a.
+center_proc(3, 10) 0000105c: sending 3 to proc(4, 10) 00001052.
+center_proc(2, 9) 00001067: sending 1 to proc(2, 10) 00001066.
+center_proc(2, 9) 00001067: return successfully.
+center_proc(3, 9) 0000105d: sending 3 to proc(4, 9) 00001053.
+center_proc(2, 10) 00001066: sending 2 to proc(3, 10) 0000105c.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(9, 3) 00001027: sending 1 to proc(9, 4) 00001026.
+south_proc(11, 10) 0000100b: sending 24 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(10, 3) 0000101d: sending 69 to proc(11, 3) 00001004.
+center_proc(10, 3) 0000101d: sending 1 to proc(10, 4) 0000101c.
+center_proc(10, 3) 0000101d: return successfully.
+south_proc(11, 3) 00001004: sending 69 to collector(11, 11) 0000108e.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(9, 3) 00001027: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 34 to proc(11, 10) 0000100b.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 9) 00001017: sending 17 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 8) 00001018: sending 102 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 120 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 24 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 34 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(10, 4) 0000101c: sending 17 to proc(11, 4) 00001005.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 4) 00001030: sending 7 to proc(8, 5) 0000102f.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+south_proc(11, 3) 00001004: return successfully.
+south_proc(11, 4) 00001005: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 5) 00001006: sending 34 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 24 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 120 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 102 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 10) 0000100b: sending 34 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 16 to proc(10, 10) 00001016.
+center_proc(9, 9) 00001021: sending 16 to proc(10, 9) 00001017.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 8) 00001022: sending 138 to proc(10, 8) 00001018.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 115 to proc(10, 7) 00001019.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 33 to proc(10, 6) 0000101a.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 16 to proc(10, 5) 0000101b.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 4) 00001026: sending 16 to proc(10, 4) 0000101c.
+center_proc(9, 4) 00001026: sending 1 to proc(9, 5) 00001025.
+center_proc(8, 4) 00001030: return successfully.
+center_proc(10, 9) 00001017: sending 17 to proc(11, 9) 0000100a.
+center_proc(10, 8) 00001018: sending 144 to proc(11, 8) 00001009.
+center_proc(10, 7) 00001019: sending 120 to proc(11, 7) 00001008.
+center_proc(10, 6) 0000101a: sending 34 to proc(11, 6) 00001007.
+center_proc(10, 5) 0000101b: sending 17 to proc(11, 5) 00001006.
+center_proc(10, 4) 0000101c: sending 17 to proc(11, 4) 00001005.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 4) 00001026: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(8, 7) 0000102d: sending 160 to proc(9, 7) 00001023.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 5) 00001039: sending 2 to proc(7, 6) 00001038.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(10, 10) 00001016: sending 17 to proc(11, 10) 0000100b.
+center_proc(10, 4) 0000101c: sending 1 to proc(10, 5) 0000101b.
+center_proc(9, 7) 00001023: sending 165 to proc(10, 7) 00001019.
+center_proc(8, 10) 0000102a: sending 15 to proc(9, 10) 00001020.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 22 to proc(9, 9) 00001021.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 6) 0000102e: sending 15 to proc(9, 6) 00001024.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 5) 0000102f: sending 15 to proc(9, 5) 00001025.
+center_proc(8, 5) 0000102f: sending 7 to proc(8, 6) 0000102e.
+center_proc(8, 5) 0000102f: return successfully.
+south_proc(11, 4) 00001005: sending 17 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 16 to proc(10, 10) 00001016.
+center_proc(9, 9) 00001021: sending 23 to proc(10, 9) 00001017.
+center_proc(9, 6) 00001024: sending 16 to proc(10, 6) 0000101a.
+center_proc(9, 5) 00001025: sending 16 to proc(10, 5) 0000101b.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 5) 00001039: return successfully.
+center_proc(8, 8) 0000102c: sending 132 to proc(9, 8) 00001022.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(7, 9) 00001035: sending 15 to proc(8, 9) 0000102b.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(6, 6) 00001042: sending 1 to proc(6, 7) 00001041.
+center_proc(6, 6) 00001042: return successfully.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(9, 8) 00001022: sending 138 to proc(10, 8) 00001018.
+center_proc(7, 10) 00001034: sending 15 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 8) 00001036: sending 150 to proc(8, 8) 0000102c.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 7) 00001037: sending 40 to proc(8, 7) 0000102d.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 6) 00001038: sending 8 to proc(8, 6) 0000102e.
+center_proc(7, 6) 00001038: sending 2 to proc(7, 7) 00001037.
+center_proc(7, 6) 00001038: return successfully.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(8, 10) 0000102a: sending 22 to proc(9, 10) 00001020.
+center_proc(8, 9) 0000102b: sending 22 to proc(9, 9) 00001021.
+center_proc(8, 8) 0000102c: sending 192 to proc(9, 8) 00001022.
+center_proc(8, 7) 0000102d: sending 75 to proc(9, 7) 00001023.
+center_proc(8, 6) 0000102e: sending 15 to proc(9, 6) 00001024.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 7) 0000104b: sending 1 to proc(5, 8) 0000104a.
+center_proc(5, 7) 0000104b: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+center_proc(6, 10) 0000103e: sending 13 to proc(7, 10) 00001034.
+center_proc(6, 9) 0000103f: sending 23 to proc(7, 9) 00001035.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 8) 00001040: sending 36 to proc(7, 8) 00001036.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(6, 7) 00001041: sending 30 to proc(7, 7) 00001037.
+center_proc(6, 7) 00001041: sending 1 to proc(6, 8) 00001040.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(4, 8) 00001054: sending 1 to proc(4, 9) 00001053.
+center_proc(4, 8) 00001054: return successfully.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(7, 9) 00001035: sending 25 to proc(8, 9) 0000102b.
+center_proc(7, 8) 00001036: sending 48 to proc(8, 8) 0000102c.
+center_proc(7, 7) 00001037: sending 40 to proc(8, 7) 0000102d.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 7) 00001041: return successfully.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(7, 10) 00001034: sending 15 to proc(8, 10) 0000102a.
+center_proc(5, 10) 00001048: sending 22 to proc(6, 10) 0000103e.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 9) 00001049: sending 5 to proc(6, 9) 0000103f.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 8) 0000104a: sending 30 to proc(6, 8) 00001040.
+center_proc(5, 8) 0000104a: sending 1 to proc(5, 9) 00001049.
+center_proc(5, 8) 0000104a: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+center_proc(6, 10) 0000103e: sending 23 to proc(7, 10) 00001034.
+center_proc(6, 9) 0000103f: sending 6 to proc(7, 9) 00001035.
+center_proc(6, 8) 00001040: sending 36 to proc(7, 8) 00001036.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(3, 9) 0000105d: sending 1 to proc(3, 10) 0000105c.
+center_proc(3, 9) 0000105d: return successfully.
+east_proc(3, 11) 0000100e: nothing to do.
+center_proc(4, 10) 00001052: sending 4 to proc(5, 10) 00001048.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 9) 00001053: sending 4 to proc(5, 9) 00001049.
+center_proc(4, 9) 00001053: sending 1 to proc(4, 10) 00001052.
+center_proc(2, 10) 00001066: sending 1 to proc(2, 11) 0000100d.
+center_proc(2, 10) 00001066: return successfully.
+east_proc(2, 11) 0000100d: nothing to do.
+east_proc(2, 11) 0000100d: return successfully.
+center_proc(5, 10) 00001048: sending 5 to proc(6, 10) 0000103e.
+center_proc(5, 9) 00001049: sending 5 to proc(6, 9) 0000103f.
+center_proc(4, 9) 00001053: return successfully.
+east_proc(4, 11) 0000100f: nothing to do.
+center_proc(3, 10) 0000105c: sending 3 to proc(4, 10) 00001052.
+center_proc(3, 10) 0000105c: sending 1 to proc(3, 11) 0000100e.
+center_proc(3, 10) 0000105c: return successfully.
+east_proc(3, 11) 0000100e: nothing to do.
+east_proc(3, 11) 0000100e: return successfully.
+center_proc(4, 10) 00001052: sending 4 to proc(5, 10) 00001048.
+south_proc(11, 4) 00001005: return successfully.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+south_proc(11, 5) 00001006: sending 17 to collector(11, 11) 0000108e.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+south_proc(11, 6) 00001007: sending 34 to collector(11, 11) 0000108e.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+south_proc(11, 7) 00001008: sending 120 to collector(11, 11) 0000108e.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+south_proc(11, 8) 00001009: sending 144 to collector(11, 11) 0000108e.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+south_proc(11, 9) 0000100a: sending 17 to collector(11, 11) 0000108e.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 4) 0000101c: return successfully.
+south_proc(11, 10) 0000100b: sending 17 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 5) 00001025: sending 1 to proc(9, 6) 00001024.
+center_proc(9, 5) 00001025: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 17 to proc(11, 10) 0000100b.
+center_proc(10, 9) 00001017: sending 24 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 8) 00001018: sending 144 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 170 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 17 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(10, 5) 0000101b: sending 17 to proc(11, 5) 00001006.
+center_proc(10, 5) 0000101b: sending 1 to proc(10, 6) 0000101a.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 6) 0000102e: sending 7 to proc(8, 7) 0000102d.
+center_proc(8, 6) 0000102e: return successfully.
+south_proc(11, 5) 00001006: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 6) 00001007: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 170 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 144 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 24 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 23 to proc(10, 10) 00001016.
+center_proc(9, 9) 00001021: sending 23 to proc(10, 9) 00001017.
+center_proc(9, 8) 00001022: sending 198 to proc(10, 8) 00001018.
+center_proc(9, 7) 00001023: sending 80 to proc(10, 7) 00001019.
+center_proc(9, 6) 00001024: sending 16 to proc(10, 6) 0000101a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 7) 00001037: sending 2 to proc(7, 8) 00001036.
+center_proc(7, 7) 00001037: return successfully.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(8, 10) 0000102a: sending 22 to proc(9, 10) 00001020.
+center_proc(8, 9) 0000102b: sending 32 to proc(9, 9) 00001021.
+center_proc(8, 8) 0000102c: sending 90 to proc(9, 8) 00001022.
+center_proc(8, 7) 0000102d: sending 75 to proc(9, 7) 00001023.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 8) 00001040: sending 1 to proc(6, 9) 0000103f.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(4, 10) 00001052: sending 1 to proc(4, 11) 0000100f.
+center_proc(4, 10) 00001052: return successfully.
+east_proc(4, 11) 0000100f: nothing to do.
+east_proc(4, 11) 0000100f: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(7, 10) 00001034: sending 25 to proc(8, 10) 0000102a.
+center_proc(7, 9) 00001035: sending 8 to proc(8, 9) 0000102b.
+center_proc(7, 8) 00001036: sending 48 to proc(8, 8) 0000102c.
+center_proc(6, 8) 00001040: return successfully.
+center_proc(6, 10) 0000103e: sending 6 to proc(7, 10) 00001034.
+center_proc(5, 9) 00001049: sending 1 to proc(5, 10) 00001048.
+center_proc(5, 9) 00001049: return successfully.
+center_proc(6, 9) 0000103f: sending 6 to proc(7, 9) 00001035.
+center_proc(5, 10) 00001048: sending 5 to proc(6, 10) 0000103e.
+south_proc(11, 5) 00001006: return successfully.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 5) 0000101b: return successfully.
+south_proc(11, 10) 0000100b: sending 17 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(9, 6) 00001024: sending 1 to proc(9, 7) 00001023.
+center_proc(9, 6) 00001024: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 24 to proc(11, 10) 0000100b.
+center_proc(10, 9) 00001017: sending 24 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 8) 00001018: sending 204 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 85 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 6) 0000101a: sending 17 to proc(11, 6) 00001007.
+center_proc(10, 6) 0000101a: sending 1 to proc(10, 7) 00001019.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+center_proc(8, 7) 0000102d: sending 7 to proc(8, 8) 0000102c.
+center_proc(8, 7) 0000102d: return successfully.
+south_proc(11, 6) 00001007: sending 17 to collector(11, 11) 0000108e.
+south_proc(11, 7) 00001008: sending 85 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 204 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 24 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 23 to proc(10, 10) 00001016.
+center_proc(9, 9) 00001021: sending 33 to proc(10, 9) 00001017.
+center_proc(9, 8) 00001022: sending 96 to proc(10, 8) 00001018.
+center_proc(9, 7) 00001023: sending 80 to proc(10, 7) 00001019.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 8) 00001036: sending 2 to proc(7, 9) 00001035.
+center_proc(7, 8) 00001036: return successfully.
+east_proc(7, 11) 00001012: nothing to do.
+center_proc(8, 10) 0000102a: sending 32 to proc(9, 10) 00001020.
+center_proc(8, 9) 0000102b: sending 15 to proc(9, 9) 00001021.
+center_proc(8, 8) 0000102c: sending 90 to proc(9, 8) 00001022.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 9) 0000103f: sending 1 to proc(6, 10) 0000103e.
+center_proc(6, 9) 0000103f: return successfully.
+east_proc(6, 11) 00001011: nothing to do.
+center_proc(7, 10) 00001034: sending 8 to proc(8, 10) 0000102a.
+center_proc(7, 9) 00001035: sending 8 to proc(8, 9) 0000102b.
+center_proc(5, 10) 00001048: sending 1 to proc(5, 11) 00001010.
+center_proc(5, 10) 00001048: return successfully.
+east_proc(5, 11) 00001010: nothing to do.
+east_proc(5, 11) 00001010: return successfully.
+center_proc(6, 10) 0000103e: sending 6 to proc(7, 10) 00001034.
+south_proc(11, 6) 00001007: return successfully.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 6) 0000101a: return successfully.
+south_proc(11, 10) 0000100b: sending 24 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 7) 00001023: sending 1 to proc(9, 8) 00001022.
+center_proc(8, 8) 0000102c: sending 7 to proc(8, 9) 0000102b.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 24 to proc(11, 10) 0000100b.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 9) 00001017: sending 34 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(10, 8) 00001018: sending 102 to proc(11, 8) 00001009.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+center_proc(10, 7) 00001019: sending 85 to proc(11, 7) 00001008.
+center_proc(10, 7) 00001019: sending 1 to proc(10, 8) 00001018.
+center_proc(10, 7) 00001019: return successfully.
+south_proc(11, 7) 00001008: sending 85 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: sending 102 to collector(11, 11) 0000108e.
+south_proc(11, 9) 0000100a: sending 34 to collector(11, 11) 0000108e.
+south_proc(11, 10) 0000100b: sending 24 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 7) 00001023: return successfully.
+center_proc(9, 8) 00001022: sending 96 to proc(10, 8) 00001018.
+center_proc(9, 8) 00001022: sending 1 to proc(9, 9) 00001021.
+center_proc(9, 8) 00001022: return successfully.
+center_proc(10, 8) 00001018: sending 102 to proc(11, 8) 00001009.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 8) 0000102c: return successfully.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 33 to proc(10, 10) 00001016.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 16 to proc(10, 9) 00001017.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 9) 00001035: sending 2 to proc(7, 10) 00001034.
+center_proc(7, 9) 00001035: return successfully.
+east_proc(7, 11) 00001012: nothing to do.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 34 to proc(11, 10) 0000100b.
+center_proc(10, 9) 00001017: sending 17 to proc(11, 9) 0000100a.
+center_proc(8, 10) 0000102a: sending 15 to proc(9, 10) 00001020.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 9) 0000102b: sending 15 to proc(9, 9) 00001021.
+center_proc(8, 9) 0000102b: sending 7 to proc(8, 10) 0000102a.
+center_proc(8, 9) 0000102b: return successfully.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 16 to proc(10, 10) 00001016.
+center_proc(9, 9) 00001021: sending 16 to proc(10, 9) 00001017.
+center_proc(6, 10) 0000103e: sending 1 to proc(6, 11) 00001011.
+center_proc(6, 10) 0000103e: return successfully.
+east_proc(6, 11) 00001011: nothing to do.
+east_proc(6, 11) 00001011: return successfully.
+center_proc(7, 10) 00001034: sending 8 to proc(8, 10) 0000102a.
+center_proc(7, 10) 00001034: sending 2 to proc(7, 11) 00001012.
+center_proc(7, 10) 00001034: return successfully.
+east_proc(7, 11) 00001012: nothing to do.
+east_proc(7, 11) 00001012: return successfully.
+center_proc(8, 10) 0000102a: sending 15 to proc(9, 10) 00001020.
+south_proc(11, 7) 00001008: return successfully.
+center_proc(10, 8) 00001018: sending 1 to proc(10, 9) 00001017.
+south_proc(11, 8) 00001009: sending 102 to collector(11, 11) 0000108e.
+south_proc(11, 8) 00001009: return successfully.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+south_proc(11, 9) 0000100a: sending 17 to collector(11, 11) 0000108e.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 8) 00001018: return successfully.
+south_proc(11, 10) 0000100b: sending 34 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 9) 00001021: sending 1 to proc(9, 10) 00001020.
+center_proc(9, 9) 00001021: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+center_proc(10, 10) 00001016: sending 17 to proc(11, 10) 0000100b.
+center_proc(10, 9) 00001017: sending 17 to proc(11, 9) 0000100a.
+center_proc(10, 9) 00001017: sending 1 to proc(10, 10) 00001016.
+center_proc(8, 10) 0000102a: sending 7 to proc(8, 11) 00001013.
+center_proc(8, 10) 0000102a: return successfully.
+south_proc(11, 9) 0000100a: sending 17 to collector(11, 11) 0000108e.
+east_proc(8, 11) 00001013: nothing to do.
+center_proc(9, 10) 00001020: sending 16 to proc(10, 10) 00001016.
+south_proc(11, 9) 0000100a: return successfully.
+east_proc(8, 11) 00001013: return successfully.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 9) 00001017: return successfully.
+south_proc(11, 10) 0000100b: sending 17 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+center_proc(9, 10) 00001020: sending 1 to proc(9, 11) 00001014.
+center_proc(9, 10) 00001020: return successfully.
+east_proc(9, 11) 00001014: nothing to do.
+east_proc(9, 11) 00001014: return successfully.
+center_proc(10, 10) 00001016: sending 17 to proc(11, 10) 0000100b.
+center_proc(10, 10) 00001016: sending 1 to proc(10, 11) 00001015.
+center_proc(10, 10) 00001016: return successfully.
+south_proc(11, 10) 0000100b: sending 17 to collector(11, 11) 0000108e.
+east_proc(10, 11) 00001015: nothing to do.
+east_proc(10, 11) 00001015: return successfully.
+south_proc(11, 10) 0000100b: return successfully.
+42 48 100 24 24 24 120 144 24 24 
+39 72 115 24 24 24 120 144 24 24 
+60 90 162 34 34 34 170 204 34 34 
+28 37 69 17 17 17 85 102 17 17 
+28 37 69 17 17 17 85 102 17 17 
+42 48 100 24 24 24 120 144 24 24 
+39 72 115 24 24 24 120 144 24 24 
+60 90 162 34 34 34 170 204 34 34 
+28 37 69 17 17 17 85 102 17 17 
+28 37 69 17 17 17 85 102 17 17 
+collector(11, 11) 0000108e: sending -1409351680 to master(0, 0) 00001001.
+collector(11, 11) 0000108e: return successfully.
+master(0, 0) 00001001: return successfully.
+No runnable environments in the system!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+K> QEMU: Terminated
+
