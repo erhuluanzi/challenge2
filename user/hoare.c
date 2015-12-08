@@ -8,6 +8,8 @@
 #define PROCSTART 0xAB010000
 #define PROCEND 0xABFF0000
 
+#define cprintf
+
 /*
  * envid, A矩阵，定义见Hoare论文
  */
