@@ -1,4 +1,4 @@
-## challenge2 -- concurrent matrix multiplication
+	## challenge2 -- concurrent matrix multiplication
 > This is our team's second challenge!
 
 ```
@@ -61,7 +61,7 @@ CENTER: 节点M(i, j)接受西边(M(i, j-1))传来的值x，直接传x给东边(
 前提：C＝B＊A
 
 #####框架设计
-考虑论文中的算法，我将整个程序分成master、center_proc、north_proc、west_proc、south_proc、east_proc等6种进程，其中master用于协调算法的开始与结束、负责输入与输出，其余5种进程定义同Hoare论文提到的。
+考虑论文中的算法，我将整个程序分成master、center_proc、north_proc、west_proc、south_proc、east_proc、collector等7种进程，其中master用于协调算法的开始与结束，collector用于从south_proc收集结果，重新组织成矩阵，其余5种进程定义同Hoare论文提到的。
 
 最初我没有考虑让整个算法连续运行，设计的算法是master每次发送一个B的行向量给west_proc，等这个流被处理完，从south_proc接收得到的行向量，然后发送下一个流。于是设计了一个wait_for_data函数，用法如下：
 
@@ -192,19 +192,20 @@ proc:
 
 对于master，我们需要实现的是创建proc阵列，记录proc阵列的每个位置的env_id，协调算法的开始与结束，获取输入输出。由于Hoare的算法中需要让每个proc知道自己东南西北的env_id，所以我采用一个矩阵env_id_mat进行记录。
 
-这里我定义了一个信息，
+这里我定义了两个个信息，
 
 	#define PROCMASK 0xFFFF0000
 	#define PROCSTART 0xAB010000
+	#define PROCEND 0xABFF0000
 
-高16位表示这个信息的种类，低16位携带其他信息。但是写到最后发现用处不是很大，也就没有扩展这个机制，只是在一开始用于开始进程时使用了。
+高16位表示这个信息的种类，低16位携带其他信息。但是写到最后发现用处不是很大，也就没有扩展这个机制，只是在一开始用于开始进程时和最终标示进程结束使用了。
 由于这个进程在被创建的时候不知道自己在阵列中的位置，我就把这个信息加载在start信号中由master一起传送给proc。
 考虑到proc一旦启动就会开始接收和发送信息，所以在master启动它们的时候要保持一个拓扑序，以防止proc与master发送的信息发生冲突。这里我采取的是south->east->center->north->west。
 
 考虑fork机制，它会复制全局变量，但是不会继承后续的修改，所以我们对env_id_mat进行的修改无法被之前创建的proc得知。原本我想设计一个创建proc的顺序回避这个问题，但是在创建center_proc时发现，它既需要知道自己发送对象（east、south），也需要知道自己的接收对象（north、west），所以在拓扑图上存在环。由于fork产生的env_id是累加的，所以我选择在master开始时就先填充env_id_mat，然后在实际创建proc时对env_id进行检查，以此回避了共享内存的问题，同时也保证了安全性。
 
 #####collector设计
-之前都是由master收集结果（在向west发送了B中所有的流之后，master开始从south_proc接收数据，并组织成C矩阵，得到结果），但是在测试时发现，有时候会卡死在一个地方，程序陷入死循环状态／死锁状态。然而有时候运行10次又有一次能够结束并得到正确结果。经过排查发现是master->south->master还是存在着环，这就导致了循环等待于是就死锁了。所以最后我们又增加了一个collector收集N＊N的结果并输出。collector的整体框架还是proc，所以也比较容易添加。
+之前都是由master收集结果（在向west发送了B中所有的流之后，master开始从south_proc接收数据，并组织成C矩阵，得到结果），但是在测试时发现，有时候会卡死在一个地方，程序陷入死锁状态。然而有时候运行10次又有一次能够结束并得到正确结果。经过排查，发现在程序中存在这样的环：master->west_proc->center_proc->south_proc->master，最后一个master直有当全部send工作结束才会开始recv，这就导致了当一个数据流的每一个节点都充满数据，并等待ipc_send时，依赖关系存在一个环，于是就死锁了。所以最后我们又增加了一个collector收集N＊N的结果并输出。由于collector是无条件进行recv，并于最后向master发送PROCEND信号，所以解决了死锁问题。collector的整体框架还是proc，所以也比较容易添加。
 
 在调试中遇到的麻烦主要是ipc机制使处于ipc_recv状态的env为不可执行，而JOS在无可执行env时会掉入monitor（其实不是缺陷，因为这时确实会导致JOS挂起），有时会不知道程序是在哪里丢失了信息，所以在整个程序中添加了大量调试输出，直接查看log就可以了解整个程序的运行流程了。
 
