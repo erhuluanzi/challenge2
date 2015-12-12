@@ -1,4 +1,4 @@
-	## challenge2 -- concurrent matrix multiplication
+## challenge2 -- concurrent matrix multiplication
 > This is our team's second challenge!
 
 ```
